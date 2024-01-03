@@ -38,12 +38,12 @@ body {
   flex-direction: column;
 }
 
-#header__line {
+#header-line {
   height: 5px;
   background: linear-gradient(90deg, #69be28 33%, #29845a 33% 66%, #00afd7 66%);
 }
 
-#header__content {
+#header-content {
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
@@ -58,7 +58,7 @@ body {
   /* padding-left: 5em; */
 }
 
-#header__title {
+#header-title {
   background-color: var(--white);
   color: var(--dark-black);
   padding: 1.5em;
