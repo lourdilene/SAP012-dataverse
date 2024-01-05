@@ -11,5 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
   rootElement.appendChild(ulElement);
   const liElement = document.createElement("li");
   ulElement.appendChild(liElement);
+  liElement.textContent = renderItems(data);
   console.log(rootElement.childElementCount);
 });

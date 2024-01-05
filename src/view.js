@@ -1,5 +1,7 @@
 export const renderItems = (data) => {
   console.log(data);
+
+  // document.addEventListener("DOMContentLoaded", function () {
   // Aquí comienza tu código y puedes retornar lo que tu necesites
   const ulElement = document.createElement("ul");
 
@@ -26,6 +28,6 @@ export const renderItems = (data) => {
     liElement.appendChild(descriptionElement);
     ulElement.appendChild(liElement);
   });
-
-  return ulElement;
+  // });
+  return "teste";
 };
