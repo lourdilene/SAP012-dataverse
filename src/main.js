@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
   rootElement.appendChild(ulElement);
   const liElement = document.createElement("li");
   ulElement.appendChild(liElement);
+  liElement.setAttribute("itemscope", "");
+  liElement.setAttribute("itemtype", "http://schema.org/Book");
   liElement.textContent = renderItems(data);
   console.log(rootElement.childElementCount);
 });
