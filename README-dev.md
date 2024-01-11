@@ -28,11 +28,15 @@ Para gerar o conjunto de dados, utilizamos as capacidades da inteligência artif
 Desenvolvemos um projeto de um site intuitivo, no qual as usuárias poderão visualizar, filtrar, ordenar e calcular estatísticas sobre o conjunto de dados. As estatísticas, como avaliação média dos livros, média dos números de páginas e tempo de leitura.
 
 ## 2. Protótipo
- Desktop Landing Page 
-**COLOCAR IMAGEM DO PROTÓTIPO**
+
+Desktop Landing Page
+
+![Desktop landing page](https://github.com/Laboratoria/SAP012-dataverse/assets/93541783/9c4b8ea3-c155-452d-af3c-7d25ff506278)
 
 Design Mobile
-**COLOCAR IMAGEM DO PROTÓTIPO**
+
+ ![mobile](https://github.com/Laboratoria/SAP012-dataverse/assets/93541783/ebb6699d-52d5-4f4d-bd88-84ea1012ce71)
+
 
 ## 3. Funcionalidades
 
