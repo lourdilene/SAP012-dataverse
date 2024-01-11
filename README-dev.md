@@ -614,9 +614,6 @@ Seus _testes unitários_ devem cobrir 70% das _declarações_
 está detalhado na seção de [Considerações técnicas](#src/data.js).
 
 ## 7. Objetivos de aprendizagem
-
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
-
 ### HTML
 
 - [ ] **Uso de HTML semântico**
