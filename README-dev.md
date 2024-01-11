@@ -613,22 +613,7 @@ Seus _testes unitários_ devem cobrir 70% das _declarações_
 (_branches_) do arquivo `src/dataFunctions.js` que contém suas funções e
 está detalhado na seção de [Considerações técnicas](#src/data.js).
 
-## 7. Edição Hacker
-
-As seções chamadas _Edição Hacker_ são **opcionais**. Se você **concluiu**
-tudo o que foi solicitado anteriormente e ainda tem tempo, tente completá-las.
-Isso permitirá que aprofundar e/ou praticar mais sobre os objetivos de
-aprendizado do projeto.
-
-Recursos/características adicionais sugeridos:
-
-* Visualizar a estatística calculada por meio de um gráfico. Para
-  isso, recomendamos explorar bibliotecas de gráficos como
-  [Chart.js](https://www.chartjs.org/)
-  ou [Google Charts](https://developers.google.com/chart/).
-* Cobertura de 100%
-
-## 8. Objetivos de aprendizagem
+## 7. Objetivos de aprendizagem
 
 Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
 
