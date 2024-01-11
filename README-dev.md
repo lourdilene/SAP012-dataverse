@@ -21,7 +21,7 @@ Projeto desenvolvido através do bootcamp da Laboratória.
 
 ## 2. Resumo do projeto
 
-Neste projeto construimos um site que permite visualizar um conjunto de dados gerados através de técnicas de prompting e ferramentas de inteligência artificial, como ChatGPT e ExplainDev. E adaptar o site de acordo com as necessidades dos usuários.
+Neste projeto construimos um site que permite visualizar um conjunto de dados gerados através de técnicas de prompting e ferramentas de inteligência artificial, como ChatGPT. E adaptar o site de acordo com as necessidades dos usuários.
 
 Para gerar o conjunto de dados, utilizamos as capacidades da inteligência artificial, explorando o poder do prompting para moldar os dados de forma precisa. A ideia foi criar um arquivo javascript robusto que atenda às especificações desejadas.
 
