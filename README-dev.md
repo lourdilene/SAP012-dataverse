@@ -167,7 +167,7 @@ Design Desktop:
 ## 5. Considerações Técnicas
 
 Foi implementada JavaScript(ES6), HTML e CSS. Neste projeto, não foi utilizado bibliotecas ou
-frameworks, apenas [JavaScript puro], exceto bibliotecas para criação de gráficos (charts); 
+frameworks, apenas JavaScript puro, exceto bibliotecas para criação de gráficos (charts); 
 
 O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, bem
 como todas as configurações de dependências:
