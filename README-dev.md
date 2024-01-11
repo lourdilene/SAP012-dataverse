@@ -423,20 +423,11 @@ resolve o problema (ou problemas) que sua usuária enfrenta.
 
 #### Histórias de usuário
 
-Depois de entender as necessidades das suas usuárias, escreva as
-[Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio)
-que representam tudo o que a usuária precisa fazer/ver.
-As **Histórias de Usuário** devem ser o resultado do seu processo de
-pesquisa ou _research_ das suas usuárias.
 
-Certifique-se de incluir a Definição de Pronto (_definition of done_) e
-os Critérios de Aceitação para cada uma.
+****INCLUIR SOBRE HISTÓRIA DE USUÁRIO
+Como leitora assídua gostaria de ordenar (crescente ou descendente) os livros por: data de publicação e números de páginas para escolher um livro mais facilmente.
 
-Use suas histórias de usuário para planejar seus sprints, dividindo cada
-história em tarefas.
-
-Na medida do possível, conclua uma História de Usuário antes de passar
-para a próxima (atendendo à Definição de Concluído e aos Critérios de Aceitação).
+Como leitora assídua gostaria de filtrar os livros por: título e palavaras-chave para escolher um livro mais facilmente. 
 
 #### Geração dos dados
 
@@ -644,9 +635,6 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 ### HTML
 
 - [ ] **Uso de HTML semântico**
---
----
---
 
 ### CSS
 
@@ -655,7 +643,6 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 - [ ] **Modelo de caixa (box model): borda, margem, preenchimento**
 
 - [ ] **Uso de flexbox em CSS**
-
 
 ### Web APIs
 
@@ -723,60 +710,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Dando Instruções**
 
-  <details><summary>Links</summary><p>
-
-  * [Dando Instruções | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/pt/docs/basics/instructions)
-</p></details>
-
 - [ ] **Few shot prompting**
-
-  <details><summary>Links</summary><p>
-
-  * [Few shot prompting | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/es/docs/basics/few_shot)
-</p></details>
-
-## 9. Dicas, guias e leituras complementares
-
-### Primeiros Passos
-
-Junte-se ao canal Slack
-[#project-dataverse-pt](https://claseslaboratoria.slack.com/archives/C06BA7468AU)
-para conversar e pedir ajuda no projeto.
-
-Antes de começar a escrever código, você deve definir o que o
-produto deverá fazer com base no conhecimento que você pode obter da sua usuária.
-Estas perguntas podem te ajudar:
-
-* Quem são as principais usuárias do produto?
-* Quais são os objetivos dessas usuárias em relação ao produto?
-* Quais são os dados mais relevantes que elas desejam ver na interface e por quê?
-* Quando elas usam ou usariam o produto?
-* Toda a sua pesquisa anterior deve resultar em todas as Histórias
-  de Usuária do seu projeto.
-* Não faça protótipos de alta fidelidade de todas as suas Histórias. Comece
-  somente pelos que são necessários para o seu Sprint 1
-  (primeira semana de trabalho). Mais dicas no guia de organização
-  para o projeto.
-
-Quando estiver pronta para codificar, sugerimos que comece assim:
-
-1. Um dos membros da equipe deve fazer um :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) do repositório da sua turma,
-   seus _coaches_ compartilharão um _link_ para um repositório e darão acesso
-   de leitura nesse repositório. O outro membro da equipe deve fazer um _fork_
-   **do repositório da colega** e
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
-   para o mesmo.
-2. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para o seu computador (cópia local).
-3. 📦 Instale as dependências do projeto com o comando `npm install`. Isso
-   presume que você instalou o [Node.js](https://nodejs.org/) (que inclui [npm](https://docs.npmjs.com/)).
-4. Se tudo correr bem, você deverá conseguir executar os :traffic_light:
-   testes unitários (unit tests) com o comando `npm test`.
-5. Para ver a interface do seu programa no navegador, use o comando
-  `npm start` para iniciar o servidor web e acesse
-  `http://localhost:5000` no seu navegador.
-6. Vamos começar a codificar! :rocket:
 
 ### Conteúdo de Referência
 
@@ -817,40 +751,3 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
-#### Organização do Trabalho
-
-* [Histórias de Usuário](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
-  Atente-se que Cris não diferencia _Definição de Concluído_ de _Critérios de
-  Aceitação_ e nós sim faremos. Mais detalhes no guia.
-* [Como dividir as H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
-
-## 10. Considerações para pedir seu Feedback do Projeto
-
-Antes de agendar seu Feedback do Projeto com um coach, assegure-se de que seu projeto:
-
-* [ ] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-* [ ] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
-* [ ] Cumpre todos os testes unitários ao executar `npm run test` e
-  que têm uma cobertura de 70% de _statements_ (_sentenças_),
-  _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-* [ ] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
-* [ ] Está enviado no GitHub e publicado no GitHub Pages
-* [ ] Captura de tela do prompt utilizado para gerar os dados.
-* Tem um `README.md` com o seguinte:
-  - [ ] _Definição do produto_ clara e informativa
-  - [ ] Histórias de usuário
-  - [ ] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
-  - [ ] A lista de problemas que você detectou por meio de testes
-    de usabilidade no `README.md`
-* Tem uma UI que cumpre as funcionalidades:
-  - [ ] Mostra lista com dados e/ou indicadores
-  - [ ] Permite ordenar dados por um ou mais campos (ascendente e descendente)
-  - [ ] Permite filtrar dados com base em uma condição
-  - [ ] Permite limpar os filtros com um botão
-  - [ ] É _responsiva_
-
-Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
-_life skills_ a partir do seu painel do estudante.
-
-Se você não completou todos os itens acima, não consideramos que está pronta para
-sua sessão de Feedback do Projeto.
