@@ -166,11 +166,8 @@ Design Desktop:
 
 ## 5. Considerações Técnicas
 
-A lógica do projeto deve ser implementada completamente em JavaScript
-(ES6), HTML e CSS. Neste projeto, NÃO é permitido usar bibliotecas ou
-frameworks, apenas [JavaScript puro](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-exceto bibliotecas para criação de gráficos (charts); veja a
-_seção opcional_](#7-hacker-edition) acima.
+Foi implementada JavaScript(ES6), HTML e CSS. Neste projeto, não foi utilizado bibliotecas ou
+frameworks, apenas [JavaScript puro], exceto bibliotecas para criação de gráficos (charts); 
 
 O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, bem
 como todas as configurações de dependências:
