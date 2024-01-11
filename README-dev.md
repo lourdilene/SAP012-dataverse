@@ -4,71 +4,37 @@
 
 * [1. Preâmbulo](#1-preâmbulo)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
+* [3. Protótipo](#3-Protótipo)
+* [4. Considerações gerais](#3-considerações-gerais)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Considerações técnicas](#5-considerações-técnicas)
 * [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
 * [7. Edição Hacker](#7-edição-hacker)
 * [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
-* [9. Dicas, guias e leituras complementares](#9-dicas-guias-e-leituras-complementares)
-* [10. Considerações para pedir seu Feedback do Projeto](#10-considerações-para-pedir-seu-feedback-do-projeto)
+
 
 ***
 
 ## 1. Preâmbulo
 
-Segundo a [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-90% dos dados existentes hoje foram criados nos últimos dois anos.
-A cada dia, geramos 2,5 milhões de terabytes de dados, um número sem
-precedentes.
-
-No entanto, os dados por si só têm pouca utilidade. Para que essas grandes
-quantidades de dados se transformem em **informação** fácil de ler para
-as usuárias, precisamos entender e processar esses dados. Uma maneira
-simples de fazer isso é criando _interfaces_ e _visualizações_.
-
-Na imagem a seguir, você poderá ver como, com os dados mostrados à esquerda,
-é possível construir uma interface amigável e compreensível para as usuárias,
-à direita.
-
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+Projeto desenvolvido através do bootcamp da Laboratória.
 
 ## 2. Resumo do projeto
 
-Neste projeto, você **construirá um _site_ para visualizar um
-_conjunto de dados_** que você irá gerar através do [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/).
-Este site será adaptado para atender às necessidades que você
-descobrir que suas usuárias têm.
+Neste projeto construimos um site que permite visualizar um conjunto de dados gerados através de técnicas de prompting e ferramentas de inteligência artificial, como ChatGPT e ExplainDev. E adaptar o site de acordo com as necessidades dos usuários.
 
-Além disso, neste projeto, você utilizará ferramentas de
-[inteligência artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
-como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre outras, para gerar um conjunto de dados em um arquivo javascript.
+Para gerar o conjunto de dados, utilizamos as capacidades da inteligência artificial, explorando o poder do prompting para moldar os dados de forma precisa. A ideia foi criar um arquivo javascript robusto que atenda às especificações desejadas.
 
-O propósito de gerar os dados dessa maneira é oferecer a oportunidade
-de se envolver com o uso de ferramentas impulsionadas pela inteligência
-artificial, assim como com [técnicas de prompting](https://learnprompting.org/pt/docs/intro).
+Desenvolvemos um projeto de um site intuitivo, no qual as usuárias poderão visualizar, filtrar, ordenar e calcular estatísticas sobre o conjunto de dados. As estatísticas, como avaliação média dos livros, média dos números de páginas e tempo de leitura.
 
-Como entrega final, você terá um site que permitirá **visualizar os dados,
-filtrá-los, ordená-los e calcular estatísticas**. Por estatísticas,
-referimo-nos a diferentes cálculos que você pode fazer com os dados
-para mostrar informações ainda mais relevantes às usuárias (média,
-valor máximo ou mínimo, etc).
+## 2. Protótipo
+ Desktop Landing Page 
+**COLOCAR IMAGEM DO PROTÓTIPO**
 
-## 3. Considerações gerais
+Design Mobile
+**COLOCAR IMAGEM DO PROTÓTIPO**
 
-* Este projeto deve ser realizado em duplas.
-* O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
-* O tempo estimado que você deve dedicar à [geração de dados](#geração-dos-dados)
-  é de no máximo dois dias. Além disso, no final do projeto, você deve
-  apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
-* Se perceber que vai demorar mais tempo,
-  deverá usar os dados de exemplo que encontrará 
-  neste caminho: `./src/data/dataset.js`.
-* O projeto será entregue ao enviar seu código para o GitHub (commit/push) e a
-  interface será implantada usando o [GitHub Pages](https://pages.github.com/).
-
-## 4. Funcionalidades
+## 3. Funcionalidades
 
 Como entrega final, você terá um site que permitirá **visualizar os dados,
 filtrá-los, ordená-los e calcular estatísticas**.
