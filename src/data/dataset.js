@@ -6,7 +6,7 @@ export default [
       "In a captivating courtroom, the queen of crime weaves a renowned mystery novel full of surprises. This engaging puzzle, brimming with twists, turns, and captivating characters, keeps readers on the edge of their seats as Agatha Christie unravels an intricate plot. The courtroom setting adds a unique touch to the narrative, providing an exciting and unpredictable experience. Witness for the Prosecution is a compact masterpiece delving into the intricacies of the judicial system, blending the author's signature suspense with courtroom fascination, offering a compelling and mysterious read.",
     shortDescription:
       "An engaging courtroom drama filled with mysteries and twists.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/1.jpg",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/1.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "234",
@@ -23,7 +23,7 @@ export default [
       "Agatha Christie's last Miss Marple novel, Nemesis, unfolds as the protagonist, Jane Marple, receives a letter from the late Jason Rafiel's lawyers. This missive beckons her into a mysterious mission, leading her on an intriguing investigation filled with obscure clues. Published in 1971, Nemesis marks the return of the eccentric Mr. Rafiel, previously seen in A Caribbean Mystery alongside the astute Miss Marple. The novel's surprising and insightful plot elegantly concludes the Miss Marple series, providing a masterful finale to the beloved character's investigative journey.",
     shortDescription:
       "Nemesis masterfully concludes Miss Marple's series of novels, surprising and insightful.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/2.jpg",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/2.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "301",
@@ -40,7 +40,7 @@ export default [
       "Agatha Christie takes Hercule Poirot on an intriguing journey. During a trip, Poirot becomes entangled in a mysterious murder aboard the Orient Express. The detective is called to solve the case when the train is stranded in the snow, and a passenger is found dead. With isolation, Poirot faces the challenge of identifying the killer among the passengers before more victims occur. Published in 1934, this classic exemplifies the author's talent for crafting intricate plots, full of twists and suspense, keeping readers captivated until the surprising conclusion.",
     shortDescription:
       "Agatha Christie's classic: Hercule Poirot solves the famous Orient Express murder, unraveling an intriguing mystery in this gripping tale.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/3.jpg",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/3.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "240",
