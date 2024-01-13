@@ -57,7 +57,7 @@ export default [
       "When Mr. Hastings accepts John Cavendish's invitation to stay at Styles, he doesn't foresee the intriguing plot that will unfold. Mrs. Emily Inglethorp, the estate's owner, dies under suspicious circumstances. Uncertainty between natural death or poisoning looms over the mansion. Hastings turns to Hercule Poirot to unravel the mystery. The Belgian detective, renowned for his cunning, confronts dubious testimonies, twists, and disjointed evidence. With engaging narrative, Hastings challenges Poirot to unravel the intricate plot. In Agatha Christie's debut novel, her trademarks emerge, including a surprising ending, now restored in this version.",
     shortDescription:
       "Agatha Christie's debut novel.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/4.jpg",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/4.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "288",
