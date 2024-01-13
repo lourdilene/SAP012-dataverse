@@ -6,7 +6,7 @@ export default [
       "TESTE a captivating courtroom, the queen of crime weaves a renowned mystery novel full of surprises. This engaging puzzle, brimming with twists, turns, and captivating characters, keeps readers on the edge of their seats as Agatha Christie unravels an intricate plot. The courtroom setting adds a unique touch to the narrative, providing an exciting and unpredictable experience. Witness for the Prosecution is a compact masterpiece delving into the intricacies of the judicial system, blending the author's signature suspense with courtroom fascination, offering a compelling and mysterious read.",
     shortDescription:
       "An engaging courtroom drama filled with mysteries and twists.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/1.jpg",
+    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/header-nocolor-bg.png",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "234",
@@ -57,7 +57,7 @@ export default [
       "When Mr. Hastings accepts John Cavendish's invitation to stay at Styles, he doesn't foresee the intriguing plot that will unfold. Mrs. Emily Inglethorp, the estate's owner, dies under suspicious circumstances. Uncertainty between natural death or poisoning looms over the mansion. Hastings turns to Hercule Poirot to unravel the mystery. The Belgian detective, renowned for his cunning, confronts dubious testimonies, twists, and disjointed evidence. With engaging narrative, Hastings challenges Poirot to unravel the intricate plot. In Agatha Christie's debut novel, her trademarks emerge, including a surprising ending, now restored in this version.",
     shortDescription:
       "Agatha Christie's debut novel.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/4.jpg",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/4.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "288",
