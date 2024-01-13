@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,400;1,700&display=swap");
 
+.elemento {
+  background-image: url('https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/1.jpg');
+}
+
 :root {
   /* COLORS */
   --dark-black: #121725;
