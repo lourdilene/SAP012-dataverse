@@ -47,5 +47,8 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "playwright": "^1.40.1"
   }
 }

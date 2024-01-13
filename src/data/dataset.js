@@ -74,7 +74,7 @@ export default [
       "In Agatha Christie's The Secret Adversary, Tommy and Tuppence, facing post-WWI challenges, embark on an adventurous journey. Published in 1922, this classic introduces the dynamic duo as young adventurers, thrust into a perilous mission involving international espionage and a global adversary. The plot, rich with intrigue and unexpected turns, marks the beginning of their enduring partnership, setting the stage for four subsequent novels. Christie skillfully weaves suspense, unveiling hidden secrets and providing readers with a captivating and suspenseful narrative, showcasing her mastery in crafting compelling mysteries.",
     shortDescription:
       "Published in 1922, 'The Secret Adversary' initiates Tommy and Tuppence's intriguing adventures, marking a lasting literary partnership.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/5.jpg",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/blob/main/src/images/books/5.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "336",
