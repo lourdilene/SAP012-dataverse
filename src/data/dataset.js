@@ -23,7 +23,7 @@ export default [
       "Agatha Christie's last Miss Marple novel, Nemesis, unfolds as the protagonist, Jane Marple, receives a letter from the late Jason Rafiel's lawyers. This missive beckons her into a mysterious mission, leading her on an intriguing investigation filled with obscure clues. Published in 1971, Nemesis marks the return of the eccentric Mr. Rafiel, previously seen in A Caribbean Mystery alongside the astute Miss Marple. The novel's surprising and insightful plot elegantly concludes the Miss Marple series, providing a masterful finale to the beloved character's investigative journey.",
     shortDescription:
       "Nemesis masterfully concludes Miss Marple's series of novels, surprising and insightful.",
-    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/2.jpg",
+    imageUrl:"https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/2.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "301",
