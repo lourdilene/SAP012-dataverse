@@ -4,71 +4,40 @@
 
 * [1. Preâmbulo](#1-preâmbulo)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
+* [3. Protótipo](#3-Protótipo)
+* [4. Considerações gerais](#3-considerações-gerais)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Considerações técnicas](#5-considerações-técnicas)
 * [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
-* [7. Edição Hacker](#7-edição-hacker)
-* [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
-* [9. Dicas, guias e leituras complementares](#9-dicas-guias-e-leituras-complementares)
-* [10. Considerações para pedir seu Feedback do Projeto](#10-considerações-para-pedir-seu-feedback-do-projeto)
+* [7. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
+
 
 ***
 
 ## 1. Preâmbulo
 
-Segundo a [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-90% dos dados existentes hoje foram criados nos últimos dois anos.
-A cada dia, geramos 2,5 milhões de terabytes de dados, um número sem
-precedentes.
-
-No entanto, os dados por si só têm pouca utilidade. Para que essas grandes
-quantidades de dados se transformem em **informação** fácil de ler para
-as usuárias, precisamos entender e processar esses dados. Uma maneira
-simples de fazer isso é criando _interfaces_ e _visualizações_.
-
-Na imagem a seguir, você poderá ver como, com os dados mostrados à esquerda,
-é possível construir uma interface amigável e compreensível para as usuárias,
-à direita.
-
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+Projeto desenvolvido através do bootcamp da Laboratória.
 
 ## 2. Resumo do projeto
 
-Neste projeto, você **construirá um _site_ para visualizar um
-_conjunto de dados_** que você irá gerar através do [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/).
-Este site será adaptado para atender às necessidades que você
-descobrir que suas usuárias têm.
+Neste projeto construimos um site que permite visualizar um conjunto de dados gerados através de técnicas de prompting e ferramentas de inteligência artificial, como ChatGPT. E o site foi adaptado de acordo com as necessidades dos usuários.
 
-Além disso, neste projeto, você utilizará ferramentas de
-[inteligência artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
-como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre outras, para gerar um conjunto de dados em um arquivo javascript.
+Para gerar o conjunto de dados, utilizamos as capacidades da inteligência artificial, explorando o poder do prompting para moldar os dados de forma precisa. A ideia foi criar um arquivo javascript robusto que atenda às especificações desejadas.
 
-O propósito de gerar os dados dessa maneira é oferecer a oportunidade
-de se envolver com o uso de ferramentas impulsionadas pela inteligência
-artificial, assim como com [técnicas de prompting](https://learnprompting.org/pt/docs/intro).
+Desenvolvemos um projeto de um site intuitivo, no qual as usuárias poderão visualizar, filtrar, ordenar e calcular estatísticas sobre o conjunto de dados. As estatísticas, como avaliação média dos livros, média dos números de páginas e tempo de leitura.
 
-Como entrega final, você terá um site que permitirá **visualizar os dados,
-filtrá-los, ordená-los e calcular estatísticas**. Por estatísticas,
-referimo-nos a diferentes cálculos que você pode fazer com os dados
-para mostrar informações ainda mais relevantes às usuárias (média,
-valor máximo ou mínimo, etc).
+## 2. Protótipo
 
-## 3. Considerações gerais
+Desktop Landing Page
 
-* Este projeto deve ser realizado em duplas.
-* O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
-* O tempo estimado que você deve dedicar à [geração de dados](#geração-dos-dados)
-  é de no máximo dois dias. Além disso, no final do projeto, você deve
-  apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
-* Se perceber que vai demorar mais tempo,
-  deverá usar os dados de exemplo que encontrará 
-  neste caminho: `./src/data/dataset.js`.
-* O projeto será entregue ao enviar seu código para o GitHub (commit/push) e a
-  interface será implantada usando o [GitHub Pages](https://pages.github.com/).
+![Desktop landing page](https://github.com/Laboratoria/SAP012-dataverse/assets/93541783/9c4b8ea3-c155-452d-af3c-7d25ff506278)
 
-## 4. Funcionalidades
+Design Mobile
+
+ ![mobile](https://github.com/Laboratoria/SAP012-dataverse/assets/93541783/ebb6699d-52d5-4f4d-bd88-84ea1012ce71)
+
+
+## 3. Funcionalidades
 
 Como entrega final, você terá um site que permitirá **visualizar os dados,
 filtrá-los, ordená-los e calcular estatísticas**.
@@ -196,11 +165,8 @@ Design Desktop:
 
 ## 5. Considerações Técnicas
 
-A lógica do projeto deve ser implementada completamente em JavaScript
-(ES6), HTML e CSS. Neste projeto, NÃO é permitido usar bibliotecas ou
-frameworks, apenas [JavaScript puro](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-exceto bibliotecas para criação de gráficos (charts); veja a
-_seção opcional_](#7-hacker-edition) acima.
+Foi implementada JavaScript(ES6), HTML e CSS. Neste projeto, não foi utilizado bibliotecas ou
+frameworks, apenas JavaScript puro, exceto bibliotecas para criação de gráficos (charts); 
 
 O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, bem
 como todas as configurações de dependências:
@@ -457,20 +423,11 @@ resolve o problema (ou problemas) que sua usuária enfrenta.
 
 #### Histórias de usuário
 
-Depois de entender as necessidades das suas usuárias, escreva as
-[Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio)
-que representam tudo o que a usuária precisa fazer/ver.
-As **Histórias de Usuário** devem ser o resultado do seu processo de
-pesquisa ou _research_ das suas usuárias.
 
-Certifique-se de incluir a Definição de Pronto (_definition of done_) e
-os Critérios de Aceitação para cada uma.
+****INCLUIR SOBRE HISTÓRIA DE USUÁRIO
+Como leitora assídua gostaria de ordenar (crescente ou descendente) os livros por: data de publicação e números de páginas para escolher um livro mais facilmente.
 
-Use suas histórias de usuário para planejar seus sprints, dividindo cada
-história em tarefas.
-
-Na medida do possível, conclua uma História de Usuário antes de passar
-para a próxima (atendendo à Definição de Concluído e aos Critérios de Aceitação).
+Como leitora assídua gostaria de filtrar os livros por: título e palavaras-chave para escolher um livro mais facilmente. 
 
 #### Geração dos dados
 
@@ -656,97 +613,26 @@ Seus _testes unitários_ devem cobrir 70% das _declarações_
 (_branches_) do arquivo `src/dataFunctions.js` que contém suas funções e
 está detalhado na seção de [Considerações técnicas](#src/data.js).
 
-## 7. Edição Hacker
-
-As seções chamadas _Edição Hacker_ são **opcionais**. Se você **concluiu**
-tudo o que foi solicitado anteriormente e ainda tem tempo, tente completá-las.
-Isso permitirá que aprofundar e/ou praticar mais sobre os objetivos de
-aprendizado do projeto.
-
-Recursos/características adicionais sugeridos:
-
-* Visualizar a estatística calculada por meio de um gráfico. Para
-  isso, recomendamos explorar bibliotecas de gráficos como
-  [Chart.js](https://www.chartjs.org/)
-  ou [Google Charts](https://developers.google.com/chart/).
-* Cobertura de 100%
-
-## 8. Objetivos de aprendizagem
-
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
-
+## 7. Objetivos de aprendizagem
 ### HTML
 
 - [ ] **Uso de HTML semântico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semântico](https://curriculum.laboratoria.la/pt/topics/html/html5/semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
 
 ### CSS
 
 - [ ] **Uso de seletores de CSS**
 
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/css/intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
 - [ ] **Modelo de caixa (box model): borda, margem, preenchimento**
 
-  <details><summary>Links</summary><p>
-
-  * [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/css/boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
-
 - [ ] **Uso de flexbox em CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
 
 ### Web APIs
 
 - [ ] **Uso de seletores de DOM**
 
-  <details><summary>Links</summary><p>
-
-  * [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/dom/1-dom-methods-selection)
-  * [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-  * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
-
 - [ ] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
 
-  <details><summary>Links</summary><p>
-
-  * [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
-  * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
-</p></details>
-
 - [ ] **Manipulação dinâmica de DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
-</p></details>
 
 ### JavaScript
 
@@ -754,72 +640,19 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Arrays (arranjos)**
 
-  <details><summary>Links</summary><p>
-
-  * [Arranjos](https://curriculum.laboratoria.la/pt/topics/javascript/arrays)
-  * [Array - MDN](https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/)
-  * [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  * [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  * [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-</p></details>
-
 - [ ] **Objetos (key, value)**
-
-  <details><summary>Links</summary><p>
-
-  * [Objetos em JavaScript](https://curriculum.laboratoria.la/pt/topics/javascript/objects/objects)
-</p></details>
 
 - [ ] **Variáveis (declaração, atribuição, escopo)**
 
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/basics/values-variables-and-types)
-  * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/basics/variables)
-</p></details>
-
 - [ ] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/conditionals-and-loops)
-  * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
 
 - [ ] **Uso de laços (while, for, for..of)**
 
-  <details><summary>Links</summary><p>
-
-  * [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/loops)
-  * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
 - [ ] **Funções (params, args, return)**
-
-  <details><summary>Links</summary><p>
-
-  * [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/functions)
-  * [Funções clássicas](https://curriculum.laboratoria.la/pt/topics/javascript/functions/classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/functions/arrow)
-  * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
 
 - [ ] **Testes unitários (unit tests)**
 
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-</p></details>
-
 - [ ] **Módulos de ECMAScript (ES modules)**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
 
 - [ ] **Uso de linter (ESLINT)**
 
@@ -838,11 +671,6 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 - [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
 
 - [ ] **GitHub: Implantação com GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
-</p></details>
 
 - [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
 
@@ -864,60 +692,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Dando Instruções**
 
-  <details><summary>Links</summary><p>
-
-  * [Dando Instruções | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/pt/docs/basics/instructions)
-</p></details>
-
 - [ ] **Few shot prompting**
-
-  <details><summary>Links</summary><p>
-
-  * [Few shot prompting | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/es/docs/basics/few_shot)
-</p></details>
-
-## 9. Dicas, guias e leituras complementares
-
-### Primeiros Passos
-
-Junte-se ao canal Slack
-[#project-dataverse-pt](https://claseslaboratoria.slack.com/archives/C06BA7468AU)
-para conversar e pedir ajuda no projeto.
-
-Antes de começar a escrever código, você deve definir o que o
-produto deverá fazer com base no conhecimento que você pode obter da sua usuária.
-Estas perguntas podem te ajudar:
-
-* Quem são as principais usuárias do produto?
-* Quais são os objetivos dessas usuárias em relação ao produto?
-* Quais são os dados mais relevantes que elas desejam ver na interface e por quê?
-* Quando elas usam ou usariam o produto?
-* Toda a sua pesquisa anterior deve resultar em todas as Histórias
-  de Usuária do seu projeto.
-* Não faça protótipos de alta fidelidade de todas as suas Histórias. Comece
-  somente pelos que são necessários para o seu Sprint 1
-  (primeira semana de trabalho). Mais dicas no guia de organização
-  para o projeto.
-
-Quando estiver pronta para codificar, sugerimos que comece assim:
-
-1. Um dos membros da equipe deve fazer um :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) do repositório da sua turma,
-   seus _coaches_ compartilharão um _link_ para um repositório e darão acesso
-   de leitura nesse repositório. O outro membro da equipe deve fazer um _fork_
-   **do repositório da colega** e
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
-   para o mesmo.
-2. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para o seu computador (cópia local).
-3. 📦 Instale as dependências do projeto com o comando `npm install`. Isso
-   presume que você instalou o [Node.js](https://nodejs.org/) (que inclui [npm](https://docs.npmjs.com/)).
-4. Se tudo correr bem, você deverá conseguir executar os :traffic_light:
-   testes unitários (unit tests) com o comando `npm test`.
-5. Para ver a interface do seu programa no navegador, use o comando
-  `npm start` para iniciar o servidor web e acesse
-  `http://localhost:5000` no seu navegador.
-6. Vamos começar a codificar! :rocket:
 
 ### Conteúdo de Referência
 
@@ -958,40 +733,3 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
-#### Organização do Trabalho
-
-* [Histórias de Usuário](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
-  Atente-se que Cris não diferencia _Definição de Concluído_ de _Critérios de
-  Aceitação_ e nós sim faremos. Mais detalhes no guia.
-* [Como dividir as H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
-
-## 10. Considerações para pedir seu Feedback do Projeto
-
-Antes de agendar seu Feedback do Projeto com um coach, assegure-se de que seu projeto:
-
-* [ ] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-* [ ] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
-* [ ] Cumpre todos os testes unitários ao executar `npm run test` e
-  que têm uma cobertura de 70% de _statements_ (_sentenças_),
-  _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-* [ ] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
-* [ ] Está enviado no GitHub e publicado no GitHub Pages
-* [ ] Captura de tela do prompt utilizado para gerar os dados.
-* Tem um `README.md` com o seguinte:
-  - [ ] _Definição do produto_ clara e informativa
-  - [ ] Histórias de usuário
-  - [ ] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
-  - [ ] A lista de problemas que você detectou por meio de testes
-    de usabilidade no `README.md`
-* Tem uma UI que cumpre as funcionalidades:
-  - [ ] Mostra lista com dados e/ou indicadores
-  - [ ] Permite ordenar dados por um ou mais campos (ascendente e descendente)
-  - [ ] Permite filtrar dados com base em uma condição
-  - [ ] Permite limpar os filtros com um botão
-  - [ ] É _responsiva_
-
-Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
-_life skills_ a partir do seu painel do estudante.
-
-Se você não completou todos os itens acima, não consideramos que está pronta para
-sua sessão de Feedback do Projeto.
