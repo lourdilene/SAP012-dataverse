@@ -3,262 +3,248 @@ export default [
     id: "1",
     name: "The witness for the prosecution",
     description:
-      "Em um tribunal intrigante, a rainha do crime tece um famoso romance de mistério cheio de surpresas. Este envolvente enigma, repleto de reviravoltas, desdobramentos e personagens cativantes, mantém os leitores à beira de seus assentos enquanto Agatha Christie desvenda uma trama meticulosa. O cenário no tribunal adiciona um toque único à narrativa, proporcionando uma experiência emocionante e imprevisível. Testemunha de Acusação é uma obra-prima compacta que mergulha nas complexidades do sistema judicial, combinando o suspense característico da autora com o fascínio do tribunal, oferecendo uma leitura envolvente e cheia de mistérios.",
+      "In a captivating courtroom, the queen of crime weaves a renowned mystery novel full of surprises. This engaging puzzle, brimming with twists, turns, and captivating characters, keeps readers on the edge of their seats as Agatha Christie unravels an intricate plot. The courtroom setting adds a unique touch to the narrative, providing an exciting and unpredictable experience. Witness for the Prosecution is a compact masterpiece delving into the intricacies of the judicial system, blending the author's signature suspense with courtroom fascination, offering a compelling and mysterious read.",
     shortDescription:
-      "Um envolvente drama judicial repleto de mistérios e reviravoltas.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/1.jpg",
+      "An engaging courtroom drama filled with mysteries and twists.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/1.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "234",
       publicationBook: "1994",
       readingTime: "23",
       ratingsBook: "3.9",
-    },
+    }
   },
 
   {
     id: "2",
     name: "Nemesis",
     description:
-      "No derradeiro livro de Agatha Christie com Miss Marple, a protagonista é surpreendida por uma carta dos advogados de seu falecido amigo Jason Rafiel. Convocada para uma missão enigmática, Jane Marple embarca em uma investigação intrigante, perscrutando pistas obscuras para desvendar o mistério proposto. Publicado em 1971, Nêmesis reintroduz o excêntrico sr. Rafiel, que previamente se unira à astuta senhora em Mistério no Caribe. A trama, surpreendente e perspicaz, fecha com chave de ouro a série de romances estrelados pela astuta Miss Marple, destacando-se como uma conclusão magistral à trajetória da personagem.",
+      "Agatha Christie's last Miss Marple novel, Nemesis, unfolds as the protagonist, Jane Marple, receives a letter from the late Jason Rafiel's lawyers. This missive beckons her into a mysterious mission, leading her on an intriguing investigation filled with obscure clues. Published in 1971, Nemesis marks the return of the eccentric Mr. Rafiel, previously seen in A Caribbean Mystery alongside the astute Miss Marple. The novel's surprising and insightful plot elegantly concludes the Miss Marple series, providing a masterful finale to the beloved character's investigative journey.",
     shortDescription:
-      "Nêmesis encerra com maestria a série de romances estrelados por Miss Marple, surpreendente e perspicaz.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/2.jpg",
+      "Nemesis masterfully concludes Miss Marple's series of novels, surprising and insightful.",
+    imageUrl:"https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/2.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "301",
       publicationBook: "1971",
-      readingTime: "23",
+      readingTime: "26",
       ratingsBook: "4.5",
-    },
+    }
   },
 
   {
     id: "3",
-    name: "Assassinato no Expresso Oriente",
+    name: "Murder on the Orient Express",
     description:
-      "Agatha Christie leva Hercule Poirot a uma jornada intrigante. Durante uma viagem, Poirot se vê envolvido em um misterioso assassinato a bordo do Expresso do Oriente. O detetive é chamado para resolver o caso quando o trem fica preso na neve e um passageiro é encontrado morto. Com o isolamento, Poirot enfrenta o desafio de identificar o assassino entre os passageiros antes que mais vítimas ocorram. Publicado em 1934, este clássico exemplifica o talento da autora em criar enredos complexos, repletos de reviravoltas e suspense, mantendo os leitores cativados até o desfecho surpreendente.",
+      "Agatha Christie takes Hercule Poirot on an intriguing journey. During a trip, Poirot becomes entangled in a mysterious murder aboard the Orient Express. The detective is called to solve the case when the train is stranded in the snow, and a passenger is found dead. With isolation, Poirot faces the challenge of identifying the killer among the passengers before more victims occur. Published in 1934, this classic exemplifies the author's talent for crafting intricate plots, full of twists and suspense, keeping readers captivated until the surprising conclusion.",
     shortDescription:
-      "Neste clássico da Rainha do Crime, Hercule Poirot investiga o famoso assassinato no Expresso do Oriente, desvendando um mistério intrigante.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/3.jpg",
+      "Agatha Christie's classic: Hercule Poirot solves the famous Orient Express murder, unraveling an intriguing mystery in this gripping tale.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/3.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "240",
       publicationBook: "1934",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.8",
     },
   },
 
   {
     id: "4",
-    name: "O Misterioso Caso de Styles",
+    name: "The Mysterious Affair at Styles",
     description:
-      "Quando Mr. Hastings aceita o convite de John Cavendish para ficar em Styles, não prevê a trama intrigante que se desenrolará. Mrs Emily Inglethorp, detentora do patrimônio, morre sob circunstâncias suspeitas. A incerteza entre morte natural ou envenenamento paira sobre a mansão. Hastings recorre a Hercule Poirot para desvendar o mistério. O detetive belga, conhecido por sua astúcia, enfrenta testemunhos duvidosos, reviravoltas e provas desconexas. Com sua narrativa envolvente, Hastings desafia Poirot a desentranhar a intricada trama. Neste primeiro romance de Agatha Christie, já se revelam suas marcas registradas, incluindo um final surpreendente, agora restaurado nesta versão.",
-    shortDescription: "O primeiro romance escrito por Agatha Christie.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/4.jpg",
+      "When Mr. Hastings accepts John Cavendish's invitation to stay at Styles, he doesn't foresee the intriguing plot that will unfold. Mrs. Emily Inglethorp, the estate's owner, dies under suspicious circumstances. Uncertainty between natural death or poisoning looms over the mansion. Hastings turns to Hercule Poirot to unravel the mystery. The Belgian detective, renowned for his cunning, confronts dubious testimonies, twists, and disjointed evidence. With engaging narrative, Hastings challenges Poirot to unravel the intricate plot. In Agatha Christie's debut novel, her trademarks emerge, including a surprising ending, now restored in this version.",
+    shortDescription:
+      "Classic mystery novel introducing detective Hercule Poirot. A rich woman's poisoning at Styles Court unravels family secrets and motives.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/4.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "288",
       publicationBook: "1920",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.8",
     },
   },
 
   {
     id: "5",
-    name: "O Adversário Secreto",
+    name: "The Secret Adversary",
     description:
-      "Após a Primeira Guerra Mundial, com escassez de empregos, Tommy e Tuppence, energéticos e sem recursos, decidem anunciar seus serviços como jovens aventureiros. O acaso leva a uma missão repleta de perigos, envolvendo espiões internacionais e um arqui-inimigo com ambições globais. O Adversário Secreto, publicado em 1922, marca o início das aventuras de Tommy e Tuppence, parceiros ao longo da vida, que se tornam personagens recorrentes na carreira da Rainha do Crime, Agatha Christie. A trama, cheia de intriga e reviravoltas, estabelece o tom para os quatro livros subsequentes protagonizados por esse duo carismático..",
+      "In Agatha Christie's The Secret Adversary, Tommy and Tuppence, facing post-WWI challenges, embark on an adventurous journey. Published in 1922, this classic introduces the dynamic duo as young adventurers, thrust into a perilous mission involving international espionage and a global adversary. The plot, rich with intrigue and unexpected turns, marks the beginning of their enduring partnership, setting the stage for four subsequent novels. Christie skillfully weaves suspense, unveiling hidden secrets and providing readers with a captivating and suspenseful narrative, showcasing her mastery in crafting compelling mysteries.",
     shortDescription:
-      "Publicado em 1922, 'O Adversário Secreto' inicia as intrigantes aventuras de Tommy e Tuppence, marcando uma duradoura parceria literária.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/5.jpg",
+      "Published in 1922, 'The Secret Adversary' initiates Tommy and Tuppence's intriguing adventures, marking a lasting literary partnership.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/5.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "336",
       publicationBook: "1922",
-      readingTime: "23",
+      readingTime: "27",
       ratingsBook: "4.5",
     },
   },
 
   {
     id: "6",
-    name: "Assassinato no Campo de Golfe",
+    name: "Murder on the Links",
     description:
-      "Na mais recente trama de Agatha Christie, Hercule Poirot é convocado por um milionário sul-americano, monsieur Renauld, para desvendar um misterioso assassinato. Renauld é encontrado apunhalado nas costas ao lado de uma cova no campo de golfe. Enfrentando rivais e intrigas, Poirot investiga motivos, amantes e a peculiar familiaridade do caso. A competição com um famoso detetive francês aumenta a tensão. Com sua perspicácia única, Poirot revela os segredos ocultos, mantendo o suspense até a última revelação neste clássico envolvente de Agatha Christie.",
+      "In Agatha Christie's latest plot, Hercule Poirot is summoned to solve a mysterious murder. Renauld, a South American millionaire, is found stabbed near a grave on a golf course. Facing rivals and intrigues, Poirot investigates motives, lovers, and the peculiar familiarity of the case. The competition with a famous French detective adds tension. With unique insight, Poirot unveils hidden secrets, maintaining suspense until the final revelation in this brilliantly captivating Agatha Christie classic, weaving a tale of suspense, deduction, and unexpected twists.",
     shortDescription:
-      "Nesta inédita adaptação em quadrinhos, o detetive Hercule Poirot enfrenta uma trama ardilosa, exigindo sua máxima perspicácia.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/6.jpg",
+      "In this graphic novel adaptation, detective Hercule Poirot confronts a cunning plot, demanding his utmost sharpness.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/6.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "288",
       publicationBook: "1923",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.5",
     },
   },
 
   {
     id: "7",
-    name: "O Homem do Terno Marrom",
+    name: "The Man in the Brown Suit",
     description:
-      "Na narrativa cativante e humorística, uma busca por aventuras leva Anne à estação Hyde Park Corner. Testemunha de um aparente acidente fatal, ela questiona a conclusão da Scotland Yard. A morte por eletrocução é tida como acidental, mas Anne desconfia. Quem era o misterioso homem de terno marrom que examinou o corpo? Sua rápida fuga deixa uma mensagem enigmática. O enredo, escrito com vivacidade, revela uma trama intrigante onde o ordinário se torna extraordinário na busca pela verdade, desafiando as convenções e levando Anne a desvendar mistérios além da aparente simplicidade da estação de metrô.",
+      "In this captivating and humorous narrative, Anne's quest for adventure leads her to Hyde Park Corner station. Witness to an apparent fatal accident, she questions Scotland Yard's conclusion of accidental electrocution. Anne suspects foul play. Who was the mysterious man in the brown suit examining the body? His swift escape leaves an enigmatic message. The plot, written with vivacity, unveils an intriguing storyline where the ordinary becomes extraordinary in the pursuit of truth, challenging conventions and leading Anne to unravel mysteries beyond the apparent simplicity of the subway station.",
     shortDescription:
-      "Publicado em 1924, este mistério combina thriller, espionagem e paisagens africanas, sendo um favorito dos fãs de Agatha Christie.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/7.jpg",
+      "Published in 1924, this mystery blends thriller, espionage, and African landscapes, making it a favorite among Agatha Christie fans.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/7.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "272",
       publicationBook: "1924",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.5",
     },
   },
 
   {
     id: "8",
-    name: "Poirot Investiga",
+    name: "Poirot Investigates",
     description:
-      "Hercule Poirot enfrenta uma série de intrigantes mistérios, desde o roubo de joias até um “suicídio” que se revela assassinato. Os casos variam de um apartamento inexplicavelmente barato a um sequestro de primeiro-ministro, envolvendo também tumbas de faraós e testamentos desaparecidos. Cada enigma desafia os brilhantes poderes dedutivos de Poirot, revelando conexões surpreendentes entre crimes enigmáticos. Ao longo de catorze histórias, Agatha Christie tece uma trama intricada, mantendo os leitores à beira de seus assentos enquanto o famoso detetive belga desvenda cada intricado quebra-cabeça, mostrando que, no mundo do crime, nada é o que parece..",
+      "Hercule Poirot faces a series of intriguing mysteries, from jewel theft to a 'suicide that turns out to be murder. Cases range from an inexplicably cheap apartment to a prime minister's kidnapping, involving pharaohs' tombs and missing wills. Each enigma challenges Poirot's brilliant deductive powers, revealing surprising connections between mysterious crimes. Throughout fourteen stories, Agatha Christie weaves an intricate plot, keeping readers on the edge of their seats as the famous Belgian detective unravels each intricate puzzle, showing that in the world of crime, nothing is as it seems.",
     shortDescription:
-      "Publicado em 1924, Poirot Investigates apresenta 14 contos, onde Hercule Poirot resolve casos envolvendo avareza, ciúme e vingança.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/8.jpg",
+      "Published in 1924, 'Poirot Investigates' features 14 tales where Hercule Poirot solves cases involving greed, jealousy, and revenge.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/8.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "399",
       publicationBook: "1924",
-      readingTime: "23",
+      readingTime: "28",
       ratingsBook: "4.0",
     },
   },
 
   {
     id: "9",
-    name: "O Segredo de Chimneys Capa",
+    name: "The Secret of Chimneys Cover",
     description:
-      "Anthony Cade, trabalhando na África, aceita uma missão simples, mas é envolvido em conspirações internacionais. Ao ser convidado para uma festa na mansão Chimneys, percebe que se tornou cúmplice involuntário de um crime. Em colaboração com o superintendente Battle, enfrenta situações arriscadas para desvendar os mistérios em Chimneys e evitar mais mortes. A trama envolve reviravoltas, revelações e ação, mantendo os leitores intrigados enquanto Cade enfrenta os desafios de sua missão inesperada e perigosa. O romance se desenrola com suspense, revelando a habilidade da autora em criar tramas envolventes e surpreendentes.",
+      "Working in Africa, Anthony Cade accepts a seemingly simple mission but becomes entangled in international conspiracies. Invited to a party at Chimneys mansion, he realizes he's unwittingly complicit in a crime. Collaborating with Superintendent Battle, he faces risky situations to unravel Chimneys' mysteries and prevent further deaths. The plot involves twists, revelations, and action, keeping readers intrigued as Cade confronts the challenges of his unexpected and perilous mission. The novel unfolds with suspense, showcasing the author's skill in crafting engaging and surprising plots.",
     shortDescription:
-      "O Segredo de Chimneys revela intrigas com o estreante superintendente Battle em 1925, encantando os leitores desde então.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/9.jpg",
+      "The Secret of Chimneys unveils intrigues with debut Superintendent Battle in 1925, captivating readers ever since.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/9.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "304",
       publicationBook: "1925",
-      readingTime: "23",
+      readingTime: "26",
       ratingsBook: "4.4",
     },
   },
 
   {
     id: "10",
-    name: "O Assassinato de Roger Ackroyd",
+    name: "The Murder of Roger Ackroyd",
     description:
-      "Na tranquila vila de Kings Abbott, a morte de Roger Ackroyd, milionário, desencadeia mistério após dois assassinatos prévios. O médico narrador, Dr. Sheppard, é alertado pela irmã de possíveis conexões entre as mortes, envolvendo envenenamento e suicídio. A curiosidade atrai Hercule Poirot, detetive aposentado em férias, para desvendar o intricado caso. A adaga tunisiana, parte da coleção de Ackroyd, torna-se crucial. A narrativa, costurada por Agatha Christie, revela uma teia de relações e segredos, destacando o gênio do autor em tecer tramas envolventes, levando Poirot a desvendar os enigmas e revelar o assassino em O Assassinato de Roger Ackroyd..",
+      "In the tranquil village of Kings Abbott, the death of millionaire Roger Ackroyd triggers a mystery following two previous murders. Narrator Dr. Sheppard, alerted by his sister to potential connections between the deaths involving poisoning and suicide, attracts the curiosity of retired detective Hercule Poirot on vacation. The Tunisian dagger, part of Ackroyd's collection, becomes crucial. Agatha Christie's narrative unveils a web of relationships and secrets, showcasing the author's genius in crafting engaging plots. Poirot unravels the mysteries and reveals the murderer in The Murder of Roger Ackroyd",
     shortDescription:
-      "Ameaças, chantagens, vícios e uma carta reveladora desafiam Poirot em intrigante trama cheia de reviravoltas, marcando seu retorno às investigações.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/15.jpg",
+      "Threats, blackmail, vices, and a revealing letter challenge Poirot in an intriguing plot, marking his return to investigations.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/10.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "296",
       publicationBook: "1926",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.6",
     },
   },
 
   {
     id: "11",
-    name: "Os Quatro Grandes",
+    name: "The Big Four",
     description:
-      "Hercule Poirot se vê envolvido em mistério quando um homem invade seu apartamento em circunstâncias suspeitas. Enfrentando questões sobre a identidade do intruso, seu estado de choque e o significado enigmático de um papel coberto com o número quatro, Poirot é arrastado para um perigoso cenário de intriga. O detetive belga, renomado por sua astúcia, arrisca sua vida na busca pela verdade sobre uma organização criminosa internacional. A trama envolvente mergulha Poirot em um mundo sombrio de conspirações, desafiando-o a decifrar segredos e enfrentar perigos enquanto desvenda os enigmas entrelaçados dessa narrativa cativante.",
+      "Hercule Poirot is entangled in mystery when a man invades his apartment under suspicious circumstances. Facing questions about the intruders identity, his state of shock, and the enigmatic meaning of a paper covered with the number four, Poirot is drawn into a dangerous web of intrigue. The renowned Belgian detective risks his life in the pursuit of truth about an international criminal organization. The engaging plot immerses Poirot in a dark world of conspiracies, challenging him to decipher secrets and confront dangers while unraveling the intertwined mysteries of this captivating narrative.",
     shortDescription:
-      "Ameaças, chantagens, vícios e revelações desafiam Poirot em uma trama intrigante, marcando seu retorno às investigações.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/11.jpg",
+      "Threats, blackmail, vices, and revelations challenge Poirot in an intriguing plot, marking his return to investigations.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/11.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "208",
       publicationBook: "1927",
-      readingTime: "23",
+      readingTime: "20",
       ratingsBook: "4.6",
     },
   },
 
   {
     id: "12",
-    name: "O Mistério do Trem Azul",
+    name: "The Mystery of the Blue Train",
     description:
-      "No luxuoso Trem Azul rumo a Nice, a rica herdeira Ruth Kettering é encontrada morta, com seus rubis roubados. O principal suspeito é o marido, Derek, mas Hercule Poirot desconfia. Ele realiza uma meticulosa reconstituição do crime e da viagem, incluindo a presença do assassino a bordo. Ao explorar a trama intricada, revelam-se segredos e motivações ocultas entre os passageiros, desafiando as aparências. Agatha Christie, com maestria, tece um mistério envolvente em ``O Mistério do Trem Azul``, mantendo os leitores intrigados até a revelação surpreendente do verdadeiro culpado e suas razões.",
+      "On the luxurious Blue Train to Nice, wealthy heiress Ruth Kettering is found dead, her rubies stolen. Husband Derek is the prime suspect, but Hercule Poirot has doubts. He meticulously reconstructs the crime and the journey, uncovering the killer on board. Exploring the intricate plot reveals hidden secrets and motivations among the passengers, challenging appearances. Agatha Christie masterfully weaves an engaging mystery in The Mystery of the Blue Train, keeping readers intrigued until the surprising revelation of the true culprit and their reasons.",
     shortDescription:
-      "Talvez você pudesse amar um ladrão, mademoiselle, mas não um assassino!",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/12.jpg",
+      "Perhaps you could love a thief, mademoiselle, but not a murderer!",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/12.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "272",
       publicationBook: "1928",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.6",
     },
   },
 
   {
     id: "13",
-    name: "O Mistério dos Sete Relógios",
+    name: "The Seven Dials Mystery",
     description:
-      "Gerry Wade, constantemente atrasado para o café na mansão de Chimneys, enfrenta uma brincadeira inocente de oito relógios. Contudo, a piada toma um rumo trágico, exigindo que a jovem Bundle e seus amigos desvendem o mistério por trás do acontecimento inesperado. A narrativa explora a dinâmica intrigante dos personagens e suas reações diante do imprevisto, enquanto a trama se desenrola em busca da verdade. A habilidade da autora em criar situações surpreendentes e personagens cativantes torna a história uma leitura envolvente, combinando suspense, humor e investigação em um contexto peculiar e fascinante..",
+      "Constantly late for breakfast at Chimneys, Gerry Wade faces an innocent prank involving eight clocks. However, the joke takes a tragic turn, requiring young Bundle and her friends to unravel the mystery behind the unexpected event. The narrative explores the intriguing dynamics of characters and their reactions to the unforeseen, while the plot unfolds in pursuit of the truth. The author's skill in creating surprising situations and captivating characters makes the story an engaging read, blending suspense, humor, and investigation in a peculiar and fascinating context.",
     shortDescription:
-      "Agatha Christie desafia detetives em O Mistério dos Sete Relógios, onde relógios revelam segredos, desencadeando um envolvente suspense.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/13.jpg",
+      "Agatha Christie challenges detectives in The Seven Dials Mystery, where clocks reveal secrets, unleashing captivating suspense.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/13.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "288",
       publicationBook: "1929",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.5",
     },
   },
 
   {
     id: "14",
-    name: "Sócios no crime: Casos de Tommy e Tuppence",
+    name: "Partners in Crime: Tommy and Tuppence Cases.",
     description:
-      "No convite do Chefe da Inteligência Britânica, Tommy e Tuppence, recém-casados, relançam a Agência de Detetives Internacional. Neste clássico da Rainha do Crime, a década de 1920 se desenrola em casos intricados. O casal, guiado pelos instintos, enfrenta desafios na alta sociedade. Com uma trama envolvente, o livro destaca a capacidade investigativa do duo e a dinâmica única entre amor, trabalho e crime. Ao desvendar mistérios, Tommy e Tuppence revelam que esses elementos podem coexistir, resultando em emocionantes aventuras que capturam a imaginação do leitor, proporcionando uma leitura repleta de suspense e reviravoltas.",
+      "Invited by the Chief of British Intelligence, newlyweds Tommy and Tuppence relaunch the International Detective Agency. In this Queen of Crime classic, the 1920s unfold with intricate cases. Guided by instincts, the couple faces challenges in high society. With a compelling plot, the book highlights the investigative prowess of the duo and the unique dynamics between love, work, and crime. Unraveling mysteries, Tommy and Tuppence reveal that these elements can coexist, resulting in thrilling adventures that captivate the reader's imagination, providing a suspenseful and twist-filled reading experience that will leave them craving for more.",
     shortDescription:
-      "Sócios no Crime é a segunda aventura do casal de detetives Tommy e Tuppence, surgidos em O Adversário Secreto (1922).",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/14.jpg",
+      "Partners in Crime is the second adventure of detective couple Tommy and Tuppence, introduced in The Secret Adversary 1922",
+    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/main/src/images/books/14.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "320",
       publicationBook: "1929",
-      readingTime: "23",
+      readingTime: "26",
       ratingsBook: "4.5",
     },
   },
 
   {
     id: "15",
-    name: "Assassinato na Casa do Pastor",
+    name: "Murder at the Vicarage",
     description:
-      "Em St. Mary Mead, vilarejo sereno por quinze anos, um brutal crime agita a comunidade. O inspetor arrogante Slack lidera a investigação. A discreta Miss Marple, amante de jardinagem e pássaros, revela sua verdadeira paixão: o estudo do comportamento humano. Intrigada pelo mistério, ela, uma detetive improvável, utiliza sua perspicácia única para desvendar segredos nos recantos do vilarejo. Miss Marple emerge como brilhante solucionadora, desvelando a trama intricada da Rainha do Crime, Agatha Christie, em uma narrativa envolvente que cativa até os leitores mais exigentes.",
+      "In the serene village of St. Mary Mead, a brutal crime disrupts the community after fifteen years. Inspector Slack, the arrogant investigator, leads the case. The discreet Miss Marple, a gardening and bird enthusiast, reveals her true passion: studying human behavior. Intrigued by the mystery, this unlikely detective employs her unique insight to unravel secrets in the village's corners. Miss Marple emerges as a brilliant solver, unveiling Agatha Christie's intricate plot in a captivating narrative that enthralls even the most discerning readers.",
     shortDescription:
-      "Hercule Poirot desvenda assassinato na Casa do Pastor, revelando segredos em trama intrincada da Rainha do Crime, Agatha Christie.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/15.jpg",
+      "Hercule Poirot unravels a murder in the Vicarage, revealing secrets in Agatha Christie's intricate plot.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/14.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "264",
@@ -270,13 +256,12 @@ export default [
 
   {
     id: "16",
-    name: "O misterioso Mr. Quin",
+    name: "The Mysterious Mr. Quin",
     description:
-      "Na atmosfera intrigante da festa de Ano-Novo, o milionário Mr. Satterthwaite é surpreendido pela chegada misteriosa de Harley Quin. Este homem enigmático, cuja presença é um prenúncio de amor ou morte, altera o curso da noite de maneira imprevisível. Satterthwaite, um observador astuto, percebe a dualidade das influências de Quin. O personagem peculiar, que aparece e desaparece rapidamente, deixa um rastro de incerteza e suspense. As interações entre Satterthwaite e Quin revelam um intricado jogo de destinos, onde o enigma se entrelaça com o inesperado, marcando a festa com um toque de fatalidade e intriga.",
+      "In the intriguing atmosphere of a New Year's party, millionaire Mr. Satterthwaite is surprised by the mysterious arrival of Harley Quin. This enigmatic man, whose presence heralds either love or death, unpredictably alters the course of the night. Satterthwaite, a keen observer, perceives the duality of Quins influences. The peculiar character, appearing and disappearing swiftly, leaves a trail of uncertainty and suspense. Interactions between Satterthwaite and Quin reveal an intricate game of destinies, where mystery intertwines with the unexpected, marking the party with a touch of fate and intrigue.",
     shortDescription:
-      "Em contos intrigantes, os detetives favoritos de Agatha Christie unem forças, desvendando mistérios com habilidades observacionais e instintos místicos.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/16.jpg",
+      "In intriguing tales, Agatha Christie's favorite detectives join forces, unraveling mysteries with observational skills and mystical instincts.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/16.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "288",
@@ -288,13 +273,12 @@ export default [
 
   {
     id: "17",
-    name: "O Mistério Sittaford",
+    name: "The Sittaford Mystery",
     description:
-      "Em Sittaford, antes de uma tempestade de neve, vizinhos promovem uma sessão espírita. A revelação chocante de um assassinato transforma a distração aparentemente inofensiva em um enigma sombrio. A atmosfera da remota localidade, a iminente tempestade e o inesperado giro para o sobrenatural criam uma trama envolvente. Agatha Christie, mestra do suspense, conduz os leitores por uma narrativa repleta de suspense e reviravoltas. A interação entre os personagens, o cenário isolado e o elemento paranormal se entrelaçam para formar um intrigante mistério, mantendo o leitor ávido por descobrir a verdade oculta na iminência da tormenta.",
+      "In Sittaford, a pre-storm seance unveils murder, transforming diversion into a dark puzzle. Christie weaves suspense in an atmospheric, remote locale, with an impending storm and a supernatural twist. The interactions, isolated setting, and paranormal element create an intriguing mystery, leaving readers eager to uncover the hidden truth amid the looming storm's suspenseful backdrop. As the plot twists and turns, Agatha Christie masterfully builds anticipation, skillfully engaging readers with the enigmatic circumstances. The suspenseful narrative in this remote setting captivates, showcasing Christie's ability to craft a compelling mystery filled with twists and turns.",
     shortDescription:
-      "Agatha Christie surpreende com um crime impossível: trote ou aviso sobrenatural? Seu engenhoso romance explora mistério e surpresas inesperadas.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/17.jpg",
+      "Agatha Christie astounds with an impossible crime: prank or supernatural warning? Her ingenious novel explores mystery and unexpected surprises.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/17.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "218",
@@ -306,13 +290,12 @@ export default [
 
   {
     id: "18",
-    name: "A Casa do Penhasco",
+    name: "Peril at End House",
     description:
-      "Num ensolarado litoral da Cornualha, Poirot planeja encerrar sua carreira, mas encontra mistério ao conhecer a srta. Buckley, herdeira ameaçada. Aparentes acidentes escondem uma sinistra verdade. Empolgado, Poirot adia a aposentadoria, mergulhando em mais um caso desafiador que testará todas as suas habilidades dedutivas. O enredo combina a promessa de descanso com uma reviravolta inesperada, destacando o talento inigualável da Rainha do Crime em criar tramas envolventes e imprevisíveis. Com o capitão Hastings ao seu lado, Poirot enfrenta um desafio que revela a verdade por trás dos eventos aparentemente casuais, levando a uma conclusão surpreendente e satisfatória.",
+      "On the sunny Cornwall coast, Poirot plans retirement but uncovers mystery with threatened heiress Miss Buckley. Apparent accidents conceal a sinister truth. Excited, Poirot postpones retirement, diving into another challenging case testing his deductive skills. The plot blends the promise of rest with an unexpected twist, showcasing the unparalleled talent of the Queen of Crime in crafting engaging and unpredictable stories. With Captain Hastings by his side, Poirot faces a challenge that unveils the truth behind seemingly casual events, leading to a surprising and satisfying conclusion.",
     shortDescription:
-      "Publicado em 1932, e que conta com a participação do detetive belga Hercule Poirot e seu amigo, Arthur Hastings.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/18.jpg",
+      "Published in 1932, featuring Belgian detective Hercule Poirot and his friend, Arthur Hastings.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/18.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "224",
@@ -324,13 +307,12 @@ export default [
 
   {
     id: "19",
-    name: "Os Treze Problemas",
+    name: "The Thirteen Problems",
     description:
-      "No cativante Clube das Terças-Feiras, Agatha Christie apresenta seu segundo livro de contos. Publicado pela HarperCollins, o grupo de amigos, liderado por Miss Marple, se reúne semanalmente para desvendar mistérios intrigantes. Cada uma das treze histórias aborda um enigma não resolvido, desde um ladrão que repete o mesmo crime até mensagens enigmáticas de envenenamento. Com seu olhar perspicaz, Miss Marple guia a análise minuciosa desses casos desafiadores. O livro mergulha os leitores em uma trama repleta de suspense, envolvendo personagens carismáticos e desafios que testam suas habilidades de detetive amador.",
+      "In the captivating Tuesday Night Club, Agatha Christie presents her second collection of short stories. Published by HarperCollins, the group of friends, led by Miss Marple, gathers weekly to unravel intriguing mysteries. Each of the thirteen stories tackles an unsolved enigma, from a thief repeating the same crime to cryptic messages of poisoning. With her keen insight, Miss Marple guides the meticulous analysis of these challenging cases. The book immerses readers in a suspenseful plot, featuring charismatic characters and challenges that test their amateur detective skills.",
     shortDescription:
-      "Em Os Treze Problemas, a inventividade de Agatha Christie em histórias envolventes de suspense surpreende, cativando o leitor.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/19.jpg",
+      "In The Thirteen Problems, Agatha Christie's ingenuity in engaging suspense stories surprises, captivating the reader.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/19.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "256",
@@ -342,13 +324,12 @@ export default [
 
   {
     id: "20",
-    name: "Treze à Mesa",
+    name: "Lord Edgware Dies",
     description:
-      "Em Senhorita Jane Marple, a atriz Jane Wilkinson pede a Poirot para se livrar do marido. Quando Lord Edgware é assassinado, Jane torna-se suspeita principal. Com um álibi sólido, Poirot enfrenta o desafio de descobrir o verdadeiro assassino entre as doze pessoas no jantar. A trama envolve intrigas e reviravoltas, exigindo que Poirot utilize toda a sua astúcia para evitar novas vítimas. O enredo intricado leva os leitores por uma jornada cheia de suspense, questionando alibis e revelando motivos ocultos. Senhorita Jane Marple destaca o brilho de Agatha Christie na criação de mistérios complexos e personagens intrigantes.",
+      "In Miss Jane Marple, actress Jane Wilkinson asks Poirot to rid her of her husband. When Lord Edgware is murdered, Jane becomes the prime suspect. With a solid alibi, Poirot faces the challenge of uncovering the true killer among the twelve dinner guests. The plot involves intrigues and twists, requiring Poirot to use all his cunning to prevent further victims. The intricate storyline takes readers on a suspenseful journey, questioning alibis and revealing hidden motives. Miss Jane Marple highlights Agatha Christie's brilliance in crafting complex mysteries and intriguing characters.",
     shortDescription:
-      "Lançado em 1933, Treze à Mesa destaca-se com um desafiador caso para Poirot, revelando um mistério engenhoso de Agatha Christie.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/20.jpg",
+      "Released in 1933, Thirteen at Dinner stands out with a challenging case for Poirot, revealing Agatha Christie's ingenious mystery",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/20.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "240",
@@ -360,13 +341,12 @@ export default [
 
   {
     id: "21",
-    name: "Por que não pediram a Evans?",
+    name: "Why Didn't They Ask Evans",
     description:
-      "Após uma jogada desastrosa de golfe, Bobby Jones encontra um moribundo próximo ao precipício. As intrigantes últimas palavras. Por que não pediram a Evans?, desencadeiam uma busca pela verdade. Bobby e sua amiga Frankie mergulham em uma trama de mistério com identidades falsas, assassinatos e segredos enterrados. A procura por Evans revela uma rede complexa de enganos, conectando pontos inesperados e revelando verdades chocantes. Com maestria, Agatha Christie tece uma trama envolvente, mantendo os leitores ansiosos para desvendar o significado das enigmáticas últimas palavras e desenterrar os segredos no jogo mortal da intriga.",
+      "After a disastrous golf shot, Bobby Jones finds a dying man near the cliff. The intriguing last words, 'Why didn't they ask Evans?', trigger a quest for the truth. Bobby and his friend Frankie dive into a mystery involving false identities, murders, and buried secrets. The search for Evans unveils a complex web of deceit, connecting unexpected dots and revealing shocking truths. With skill, Agatha Christie weaves a captivating plot, keeping readers eager to unravel the meaning of the enigmatic last words and unearth the secrets in the deadly game of intrigue.",
     shortDescription:
-      "Bobby e Frankie investigam quem é Evans e a misteriosa demanda. Descobrem perigos reais, mesmo sem serem detetives profissionais.",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/21.jpg",
+      "Bobby and Frankie investigate Evans and the mysterious demand, uncovering real dangers despite not being professional detectives.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/21.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "256",
@@ -378,13 +358,12 @@ export default [
 
   {
     id: "22",
-    name: "O Detetive Parker Pyne",
+    name: "Parker Pyne Investigates",
     description:
-      "Na intrigante trama de Parker Pyne, um anúncio sugere consultas para a felicidade. Após décadas na burocracia, o detetive redireciona suas habilidades, não para crimes, mas para desvendar os anseios humanos. Viajando incógnito, ele não só transforma vidas, salvando casamentos e adicionando aventura, mas também se depara com ladrões e desvenda assassinatos. Longe dos enigmas insolúveis, Pyne explora os recônditos do coração humano, proporcionando reviravoltas emocionantes e revelações surpreendentes. Uma abordagem única para o suspense, onde o verdadeiro mistério reside nas complexidades dos sentimentos e nas transformações pessoais desencadeadas pelo perspicaz Parker Pyne.",
+      "In Parker Pyne's intriguing plot, an advertisement offers consultations for happiness. After decades in bureaucracy, the detective redirects his skills not to solve crimes but to unravel human desires. Traveling incognito, he not only transforms lives, saving marriages and adding adventure but also encounters thieves and uncovers murders. Far from unsolvable puzzles, Pyne explores the depths of the human heart, providing thrilling twists and surprising revelations. A unique approach to suspense, where the real mystery lies in the complexities of feelings and the personal transformations triggered by the insightful Parker Pyne.",
     shortDescription:
-      "Publicado em 1934, livro de catorze histórias destaca Parker Pyne, especialista em crimes do coração. The Observer elogia",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/22.jpg",
+      "Published in 1934, a collection of fourteen heartwarming stories featuring Parker Pyne, hailed by The Observer for its emotional insight.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/22.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "272",
@@ -396,37 +375,37 @@ export default [
 
   {
     id: "23",
-    name: "O Mistério de Listerdale",
+    name: "The Listerdale Mystery",
     description:
-      "A narrativa gira em torno de uma família burguesa empobrecida que aluga uma casa magnífica a um preço surpreendentemente baixo. A residência pertence a Lord Listerdale, desaparecido há anos, deixando nenhum rastro. O inquilino jovem sugere que o aluguel acessível se deve ao possível assassinato de Lord Listerdale, cujo corpo estaria oculto na casa. O enredo se desenrola com coincidências intrigantes, levando o jovem a desvendar o mistério por trás do desaparecimento de Lord Listerdale, revelando uma trama cativante e cheia de surpresas.",
+      "The story follows a destitute bourgeois family leasing a splendid house at an unexpectedly low cost. The dwelling, owned by the elusive Lord Listerdale, has been vacant for years without explanation for his disappearance. The young tenant speculates that the affordable rent might be linked to a potential murder, suspecting Lord Listerdale's hidden body within the premises. As the plot thickens, intriguing coincidences emerge, guiding the young tenant through a captivating journey to unravel the mystery behind Lord Listerdale's vanishing act. The storyline unveils unexpected twists, maintaining suspense until the revelation of the hidden truth.",
     shortDescription:
-      "Todos têm uma coisa em comum: a mão habilidosa de Agatha Christie",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/23.jpg",
+      "Everyone shares one thing: Agatha Christie's skillful hand.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/23.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "320",
       publicationBook: "1934",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.2",
     },
   },
 
   {
     id: "24",
-    name: "A Casa Torta",
+    name: "Crooked House",
     description:
-      "Numa mansão torta nos arredores de Londres, o milionário Aristide Leonides é envenenado. A casa repleta de familiares torna-se um campo de suspeitas, especialmente contra a jovem viúva. A polícia investiga, mas discórdias emergem. Sophia, neta do falecido, une-se ao namorado para desvendar o mistério da morte do avô, mergulhando em um enredo cheio de intrigas familiares e tensão. A trama intricada de A Casa Torta desafia os personagens a confrontar segredos e revelações, criando um thriller cativante que mantém o leitor ávido por respostas até o surpreendente desfecho.",
+      "In a crooked mansion on the outskirts of London, millionaire Aristide Leonides is poisoned. The house filled with relatives becomes a field of suspicions, especially against the young widow. The police investigate, but discord arises. Sophia, the deceased's granddaughter, joins her boyfriend to unravel the mystery of her grandfather's death, diving into a plot full of family intrigues and tension. The intricate plot of 'Crooked House' challenges the characters to confront secrets and revelations, creating a captivating thriller that keeps the reader eager for answers until the surprising conclusion.",
     shortDescription:
-      "Todos têm uma coisa em comum: a mão habilidosa de Agatha Christie",
-    imageUrl:
-      "https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/src/images/books/24.jpg",
+      "In a crooked mansion, millionaire Aristide Leonides is poisoned, sparking suspicions among relatives. Sophia, his granddaughter, investigates family intrigues.",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/24.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "240",
       publicationBook: "1949",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.6",
     },
-  },
+  }, 
+
 ];
+
