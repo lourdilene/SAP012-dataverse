@@ -6,47 +6,29 @@ export const renderItems = (data) => {
     liElement.classList.add("books");
 
     const dlElement = document.createElement("dl");
-
     dlElement.setAttribute("itemscope", "");
     dlElement.setAttribute("itemtype", "http://schema.org/Book");
-
-    const dtElement = document.createElement("dt");
-    dtElement.textContent = book.name;
 
     const ddElement = document.createElement("dd");
     ddElement.setAttribute("itemprop", "name");
     ddElement.textContent = book.name;
 
-    const dtSElement = document.createElement("dt");
-    dtSElement.textContent = book.shortDescription;
+    ddElement.classList.add("book-name");
+
+    const imgElement = document.createElement("img");
+    imgElement.src = book.imageUrl;
+    imgElement.setAttribute("itemprop", "image");
 
     const ddSElement = document.createElement("dd");
-    ddSElement.setAttribute("itemprop", "name");
+    ddSElement.setAttribute("itemprop", "shortDescription");
     ddSElement.textContent = book.shortDescription;
 
-    dlElement.appendChild(dtElement, ddElement);
+    dlElement.appendChild(ddElement);
+    dlElement.appendChild(imgElement);
+
+    dlElement.appendChild(ddSElement);
 
     liElement.appendChild(dlElement);
-
-    dlElement.appendChild(dtSElement, ddSElement);
-
-    // liElement.setAttribute("itemscope", "");
-    // liElement.setAttribute("itemtype", "http://schema.org/Book");
-
-    // const titleElement = document.createElement("h2");
-    // titleElement.textContent = book.name;
-    // titleElement.setAttribute("itemprop", "name");
-    // liElement.appendChild(titleElement);
-
-    // const imgElement = document.createElement("img");
-    // imgElement.src = book.imageUrl;
-    // imgElement.setAttribute("itemprop", "image");
-    // liElement.appendChild(imgElement);
-
-    // const descriptionElement = document.createElement("p");
-    // descriptionElement.textContent = book.shortDescription;
-    // descriptionElement.setAttribute("itemprop", "description");
-    // liElement.appendChild(descriptionElement);
     ulElement.appendChild(liElement);
   });
 
