@@ -148,7 +148,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.card {
+.card { /*Definição do card novo*/
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ ul {
   padding-right: 25px; /* Ajuste o valor conforme necessário */
 }
 
-.book-details {
+.book-details { /*Definição do card novo*/
   display: grid;
   grid-template-columns: auto auto; /* Duas colunas para Name e conteúdo */
   grid-gap: 10px; /* Espaço entre as colunas */
