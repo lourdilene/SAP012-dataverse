@@ -13,13 +13,6 @@
         <h1>&lt;&nbsp;Lab&nbsp;/&gt; Books</h1>
       </div>
       <div id="header-content">
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
         <div id="header-filter">
           <label for="filters">Filter:</label>
           <select name="filter" id="filters">
@@ -28,10 +21,17 @@
             <option value="test3">test3</option>
             <option value="test4">test4</option>
           </select>
-          <label for="sorts">Sort:</label>
+        </div>
+        <div id="sort">
+          <label for="sorts">Sort by: </label>
           <select name="sort" id="sorts">
-            <option value="test1">test1</option>
-            <option value="test2">test2</option>
+            <option value="featured">Featured</option>
+            <option value="number-of-pages-ascending">
+              Number of Pages: Ascending
+            </option>
+            <option value="number-of-pages-descending">
+              Number of Pages: Descending
+            </option>
           </select>
         </div>
       </div>
