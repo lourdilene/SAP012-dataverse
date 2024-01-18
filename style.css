@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,400;1,700&display=swap");
+
+:root {
+  /* COLORS */
+  --dark-black: #121725;
+  --white: #ffffff;
+  --slayty: #2c344b;
+  --neon: #54e6af;
+  --silver: #c2cbe5;
+  --light-slayty: #5a668a;
+  --red: #fb3e3e;
+  --gradient-from: #2f93e2a3;
+  --gradient-to: #0c4470;
+  --bg-gradient: linear-gradient(
+    206.57deg,
+    var(--gradient-from) 0%,
+    var(--gradient-to) 100%
+  );
+  --header-height: 45px;
+  /* FONTS */
+  --ff-chivo: "Chivo", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#header-line {
+  height: 5px;
+  background: linear-gradient(90deg, #69be28 33%, #29845a 33% 66%, #00afd7 66%);
+}
+
+#header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: var(--bg-gradient) 100% no-repeat,
+    url(images/header-nocolor-bg.png) top center/cover no-repeat;
+  color: white;
+  /* padding-bottom: 15em; */
+  /* height: 100vh; */
+}
+
+#header-title {
+  background-color: var(--white);
+  color: var(--dark-black);
+  padding: 1.5em;
+}
+
+#header-filter {
+  margin: 6rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#header-filter label {
+  margin-right: 5px;
+}
+
+#header-filter select {
+  margin-right: 35px;
+}
+
+nav {
+  padding: 1.5rem;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  background: linear-gradient(206.57deg, #0f5b97c4 0%, #0c4470 100%);
+  border-bottom: 2px solid #fff;
+  color: var(--white);
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: var(--white);
+}
+
+#healder-filter {
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  display: flex;
+  color: var(--white);
+}
+
+main {
+  max-width: 800px;
+  width: 100%; /* Garante que a largura da página seja 100% */
+  margin: 0 auto; /* Centraliza a página na horizontal */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.books {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  list-style: none;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+dl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+dd.book-name {
+  font-size: 1rem;
+  height: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer {
+  color: #fff;
+  background: #0f3d6b url(images/footer-bg.png);
+  background-size: cover;
+  color: white;
+  height: 1.5em;
+  text-align: center;
+  padding: 2em;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .books {
+    flex: 1;
+    margin: 0 10px 20px 0;
+  }
+}
