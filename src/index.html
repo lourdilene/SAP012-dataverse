@@ -33,20 +33,14 @@
         </div>
         <div id="sort">
           <label for="sorts">Sort by: </label>
-          <select name="sort" id="sorts">
+          <select name="sort" id="sorts" data-testid="selecionar-ordenar">
             <option value="featured">Featured</option>
-            <option value="number-of-pages-ascending">
-              Number of Pages: Ascending
-            </option>
-            <option value="number-of-pages-descending">
-              Number of Pages: Descending
-            </option>
-            <option value="year-of-publication-ascending">
-              Year of Publication: Ascending
-            </option>
-            <option value="year-of-publication-descending">
-              Year of Publication: Descending
-            </option>
+            <option value="pages-book">Number of Pages:</option>
+            <option value="publication-book">Year of Publication:</option>
+          </select>
+          <select name="ordem-ordenacao" id="ordenacao">
+            <option value="asc">Asc</option>
+            <option value="des">Desc</option>
           </select>
         </div>
       </div>

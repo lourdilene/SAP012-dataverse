@@ -1,43 +1,36 @@
-import {
-  // sortByPagesAscending,
-  sortByPagesDescending,
-  sortByPublicationBookAscending,
-  sortByPublicationBookDescending,
-  sortData,
-} from "./dataFunctions.js";
+import { sortData } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
-const sortSelectElement = document.getElementById("sorts");
 const rootElement = document.getElementById("root");
 let processedData = [];
 
-sortSelectElement.addEventListener("change", function () {
-  const selectedValue = sortSelectElement.value;
-
-  if (selectedValue === "number-of-pages-ascending") {
-    // processedData = sortByPagesAscending(data);
-    processedData = sortData(data, "pagesBook", "asc");
-  }
-  if (selectedValue === "number-of-pages-descending") {
-    processedData = sortByPagesDescending(data);
-  }
-  if (selectedValue === "year-of-publication-ascending") {
-    processedData = sortByPublicationBookAscending(data);
-  }
-  if (selectedValue === "year-of-publication-descending") {
-    processedData = sortByPublicationBookDescending(data);
-  }
-  if (selectedValue === "featured") {
-    processedData = data;
-  }
-
-  rootElement.innerHTML = "";
-
-  rootElement.appendChild(renderItems(processedData));
-});
-
 document.addEventListener("DOMContentLoaded", function () {
+  const sortSelectElement = document.getElementById("sorts");
+  const orderSelectElement = document.getElementById("ordenacao");
+
+  orderSelectElement.disabled = true;
+
+  sortSelectElement.addEventListener("change", function () {
+    const sortBy = sortSelectElement.value;
+
+    orderSelectElement.disabled = false;
+
+    processedData = sortData(data, sortBy, orderSelectElement.value);
+
+    rootElement.innerHTML = "";
+
+    rootElement.appendChild(renderItems(processedData));
+  });
+  orderSelectElement.addEventListener("change", function () {
+    const sortBy = sortSelectElement.value;
+
+    processedData = sortData(data, sortBy, orderSelectElement.value);
+
+    rootElement.innerHTML = "";
+
+    rootElement.appendChild(renderItems(processedData));
+  });
   rootElement.appendChild(renderItems(data));
 });
