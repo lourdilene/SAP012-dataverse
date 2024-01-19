@@ -4,7 +4,7 @@
 export const data = [
   {
     id: "1",
-    name: "The witness for the prosecution",
+    name: "The Witness for the Prosecution",
     description:
       "In a captivating courtroom, the queen of crime weaves a renowned mystery novel full of surprises. This engaging puzzle, brimming with twists, turns, and captivating characters, keeps readers on the edge of their seats as Agatha Christie unravels an intricate plot. The courtroom setting adds a unique touch to the narrative, providing an exciting and unpredictable experience. Witness for the Prosecution is a compact masterpiece delving into the intricacies of the judicial system, blending the author's signature suspense with courtroom fascination, offering a compelling and mysterious read.",
     shortDescription:
@@ -16,6 +16,8 @@ export const data = [
       publicationBook: "1994",
       readingTime: "23",
       ratingsBook: "3.9",
+      typeBook: "theater"
+
     }
   },
 
@@ -26,19 +28,20 @@ export const data = [
       "Agatha Christie's last Miss Marple novel, Nemesis, unfolds as the protagonist, Jane Marple, receives a letter from the late Jason Rafiel's lawyers. This missive beckons her into a mysterious mission, leading her on an intriguing investigation filled with obscure clues. Published in 1971, Nemesis marks the return of the eccentric Mr. Rafiel, previously seen in A Caribbean Mystery alongside the astute Miss Marple. The novel's surprising and insightful plot elegantly concludes the Miss Marple series, providing a masterful finale to the beloved character's investigative journey.",
     shortDescription:
       "Nemesis masterfully concludes Miss Marple's series of novels, surprising and insightful.",
-    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/2.jpg",
+    imageUrl:"https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/2.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "301",
       publicationBook: "1971",
-      readingTime: "23",
+      readingTime: "26",
       ratingsBook: "4.5",
+      typeBook:"novel"
     }
   },
 
   {
     id: "3",
-    name: "Murder on the Orient Express",
+    name: "Murder On the Orient Express",
     description:
       "Agatha Christie takes Hercule Poirot on an intriguing journey. During a trip, Poirot becomes entangled in a mysterious murder aboard the Orient Express. The detective is called to solve the case when the train is stranded in the snow, and a passenger is found dead. With isolation, Poirot faces the challenge of identifying the killer among the passengers before more victims occur. Published in 1934, this classic exemplifies the author's talent for crafting intricate plots, full of twists and suspense, keeping readers captivated until the surprising conclusion.",
     shortDescription:
@@ -48,8 +51,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "240",
       publicationBook: "1934",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.8",
+      typeBook: "movie", 
     },
   },
 
@@ -59,14 +63,15 @@ export const data = [
     description:
       "When Mr. Hastings accepts John Cavendish's invitation to stay at Styles, he doesn't foresee the intriguing plot that will unfold. Mrs. Emily Inglethorp, the estate's owner, dies under suspicious circumstances. Uncertainty between natural death or poisoning looms over the mansion. Hastings turns to Hercule Poirot to unravel the mystery. The Belgian detective, renowned for his cunning, confronts dubious testimonies, twists, and disjointed evidence. With engaging narrative, Hastings challenges Poirot to unravel the intricate plot. In Agatha Christie's debut novel, her trademarks emerge, including a surprising ending, now restored in this version.",
     shortDescription:
-      "Agatha Christie's debut novel.",
+      "Classic mystery novel introducing detective Hercule Poirot. A rich woman's poisoning at Styles Court unravels family secrets and motives.",
     imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/4.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "288",
       publicationBook: "1920",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.8",
+      typeBook:"novel"
     },
   },
 
@@ -82,8 +87,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "336",
       publicationBook: "1922",
-      readingTime: "23",
+      readingTime: "27",
       ratingsBook: "4.5",
+      typeBook:"novel"
     },
   },
 
@@ -99,8 +105,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "288",
       publicationBook: "1923",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.5",
+      typeBook:"novel"
     },
   },
 
@@ -116,8 +123,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "272",
       publicationBook: "1924",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.5",
+      typeBook:"novel"
     },
   },
 
@@ -133,8 +141,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "399",
       publicationBook: "1924",
-      readingTime: "23",
+      readingTime: "28",
       ratingsBook: "4.0",
+      typeBook:"novel"
     },
   },
 
@@ -150,8 +159,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "304",
       publicationBook: "1925",
-      readingTime: "23",
+      readingTime: "26",
       ratingsBook: "4.4",
+      typeBook:"novel"
     },
   },
 
@@ -167,8 +177,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "296",
       publicationBook: "1926",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.6",
+      typeBook: "theater"
     },
   },
 
@@ -184,8 +195,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "208",
       publicationBook: "1927",
-      readingTime: "23",
+      readingTime: "20",
       ratingsBook: "4.6",
+      typeBook:"novel"
     },
   },
 
@@ -201,8 +213,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "272",
       publicationBook: "1928",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.6",
+      typeBook:"novel"
     },
   },
 
@@ -218,59 +231,63 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "288",
       publicationBook: "1929",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.5",
+      typeBook:"novel"
     },
   },
 
   {
     id: "14",
-    name: "Partners in Crime: Tommy and Tuppence Cases.",
+    name: "Death on the Nile",
     description:
-      "Invited by the Chief of British Intelligence, newlyweds Tommy and Tuppence relaunch the International Detective Agency. In this Queen of Crime classic, the 1920s unfold with intricate cases. Guided by instincts, the couple faces challenges in high society. With a compelling plot, the book highlights the investigative prowess of the duo and the unique dynamics between love, work, and crime. Unraveling mysteries, Tommy and Tuppence reveal that these elements can coexist, resulting in thrilling adventures that captivate the reader's imagination, providing a suspenseful and twist-filled reading experience that will leave them craving for more.",
+      "Death on the Nile' is a classic mystery novel by Agatha Christie. Set against the exotic backdrop of a luxurious cruise on the Nile River, detective Hercule Poirot investigates the murder of a wealthy heiress, Linnet Ridgeway. As Poirot unravels the intricate web of relationships among the passengers, he discovers jealousy, revenge, and hidden motives. The novel is a masterful exploration of human nature, filled with suspense and clever twists that keep readers on the edge of their seats. Christie's brilliant storytelling and intricate plotting make 'Death on the Nile' a timeless and captivating whodunit.",
     shortDescription:
-      "Partners in Crime is the second adventure of detective couple Tommy and Tuppence, introduced in The Secret Adversary 1922",
+      "Agatha Christie's 'Death on the Nile': A riveting Nile River cruise becomes a crime scene, revealing secrets, jealousy, and murder.",
     imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/main/src/images/books/14.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "320",
-      publicationBook: "1929",
-      readingTime: "23",
-      ratingsBook: "4.5",
+      publicationBook: "1937",
+      readingTime: "26",
+      ratingsBook: "4.7",
+      typeBook: "movie"
     },
   },
 
   {
     id: "15",
-    name: "Murder at the Vicarage",
+    name: "And Then There Were None",
     description:
-      "In the serene village of St. Mary Mead, a brutal crime disrupts the community after fifteen years. Inspector Slack, the arrogant investigator, leads the case. The discreet Miss Marple, a gardening and bird enthusiast, reveals her true passion: studying human behavior. Intrigued by the mystery, this unlikely detective employs her unique insight to unravel secrets in the village's corners. Miss Marple emerges as a brilliant solver, unveiling Agatha Christie's intricate plot in a captivating narrative that enthralls even the most discerning readers.",
+      "And Then There Were None is a classic mystery novel by Agatha Christie. Ten strangers with dubious pasts are lured to an isolated island under different pretexts. As they gather, a mysterious voice accuses each of them of heinous crimes they have committed. Stranded and hunted, the characters face a deadly countdown. The tension intensifies as secrets unravel and trust dissolves. Known for its intricate plot and unexpected twists, the novel keeps readers on the edge of their seats, making it one of Christie's most celebrated works in the genre of whodunit mysteries.",
     shortDescription:
-      "Hercule Poirot unravels a murder in the Vicarage, revealing secrets in Agatha Christie's intricate plot.",
+      "Agatha Christie's And Then There Were None follows ten strangers on an isolated island, facing deadly accusations and suspenseful twists.",
     imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/14.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "264",
-      publicationBook: "1930",
+      publicationBook: "1982",
       readingTime: "23",
-      ratingsBook: "4.6",
+      ratingsBook: "4.8",
+      typeBook: "movie"
     },
   },
 
   {
     id: "16",
-    name: "The Mysterious Mr. Quin",
+    name: "The Mousetrap",
     description:
-      "In the intriguing atmosphere of a New Year's party, millionaire Mr. Satterthwaite is surprised by the mysterious arrival of Harley Quin. This enigmatic man, whose presence heralds either love or death, unpredictably alters the course of the night. Satterthwaite, a keen observer, perceives the duality of Quins influences. The peculiar character, appearing and disappearing swiftly, leaves a trail of uncertainty and suspense. Interactions between Satterthwaite and Quin reveal an intricate game of destinies, where mystery intertwines with the unexpected, marking the party with a touch of fate and intrigue.",
+      "The Mousetrap is a classic mystery novel written by Agatha Christie. Set in a guesthouse, it unfolds a gripping tale of murder and suspense. As guests are snowed in, tensions rise, and secrets surface, leading to a surprising and dramatic climax. Known for its clever plot twists and intriguing characters, the book keeps readers guessing until the very end. With Christie's trademark storytelling prowess, The Mousetrap remains a timeless masterpiece in the genre of whodunits, captivating audiences with its clever narrative and unexpected revelations.",
     shortDescription:
-      "In intriguing tales, Agatha Christie's favorite detectives join forces, unraveling mysteries with observational skills and mystical instincts.",
+      "The Mousetrap by Agatha Christie is a classic murder mystery, where a group of strangers unravels dark secrets amid suspense",
     imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/16.jpg",
     facts: {
       authorBook: "Agatha Christie",
-      pagesBook: "288",
-      publicationBook: "1930",
-      readingTime: "23",
-      ratingsBook: "4.9",
+      pagesBook: "108",
+      publicationBook: "1952",
+      readingTime: "20",
+      ratingsBook: "4.4",
+      typeBook: "theater"
     },
   },
 
@@ -288,6 +305,7 @@ export const data = [
       publicationBook: "1931",
       readingTime: "23",
       ratingsBook: "4.4",
+      typeBook:"novel"
     },
   },
 
@@ -305,6 +323,7 @@ export const data = [
       publicationBook: "1932",
       readingTime: "23",
       ratingsBook: "4.7",
+      typeBook:"novel"
     },
   },
 
@@ -322,6 +341,7 @@ export const data = [
       publicationBook: "1932",
       readingTime: "23",
       ratingsBook: "4.7",
+      typeBook:"novel"
     },
   },
 
@@ -339,6 +359,7 @@ export const data = [
       publicationBook: "1933",
       readingTime: "23",
       ratingsBook: "4.6",
+      typeBook:"novel"
     },
   },
 
@@ -356,6 +377,7 @@ export const data = [
       publicationBook: "1934",
       readingTime: "23",
       ratingsBook: "4.7",
+      typeBook:"novel"
     },
   },
 
@@ -373,6 +395,7 @@ export const data = [
       publicationBook: "1934",
       readingTime: "23",
       ratingsBook: "4.3",
+      typeBook:"novel"
     },
   },
 
@@ -388,8 +411,9 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "320",
       publicationBook: "1934",
-      readingTime: "23",
+      readingTime: "25",
       ratingsBook: "4.2",
+      typeBook:"novel"
     },
   },
 
@@ -405,8 +429,10 @@ export const data = [
       authorBook: "Agatha Christie",
       pagesBook: "240",
       publicationBook: "1949",
-      readingTime: "23",
+      readingTime: "24",
       ratingsBook: "4.6",
+      typeBook:"novel"
     },
-  },
+  }, 
+
 ];
