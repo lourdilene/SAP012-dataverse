@@ -38,6 +38,10 @@ export const sortByPublicationBookDescending = (data) => {
   return booksDescending;
 };
 
+export const filterByTypeBookMovie = (data) => {
+  return data.filter((book) => book.facts.typeBook === "movie");
+};
+
 export const anotherExample = () => {
   return [];
 };

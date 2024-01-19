@@ -3,12 +3,14 @@ import {
   sortByPagesDescending,
   sortByPublicationBookAscending,
   sortByPublicationBookDescending,
+  filterByTypeBookMovie,
 } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
 const sortSelectElement = document.getElementById("sorts");
+const filterSelectElement = document.getElementById("filters");
 const rootElement = document.getElementById("root");
 let processedData = [];
 
@@ -33,6 +35,15 @@ sortSelectElement.addEventListener("change", function () {
 
   rootElement.innerHTML = "";
 
+  rootElement.appendChild(renderItems(processedData));
+});
+
+filterSelectElement.addEventListener("change", function () {
+  const selectedValue = filterSelectElement.value;
+  if (selectedValue === "movie") {
+    processedData = filterByTypeBookMovie(data);
+  }
+  rootElement.innerHTML = "";
   rootElement.appendChild(renderItems(processedData));
 });
 

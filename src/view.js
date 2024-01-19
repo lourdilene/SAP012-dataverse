@@ -28,12 +28,32 @@ export const renderItems = (data) => {
     ddShortDescriptionElement.setAttribute("itemprop", "shortDescription");
     ddShortDescriptionElement.textContent = book.shortDescription;
 
+    //pagesbook
+    const dtPagesBookElement = document.createElement("dt");
+    dtPagesBookElement.textContent = book.facts.pagesBook;
+    
+    const ddPagesBookElement = document.createElement("dd");
+    ddPagesBookElement.setAttribute("itemprop", "pagesBook");
+    ddPagesBookElement.textContent = book.facts.pagesBook; 
+    
+    //publicationBook
+    const dtPublicationBookElement = document.createElement("dt");
+    dtPublicationBookElement.textContent = book.facts.publicationBook;
+    
+    const ddPublicationBookElement = document.createElement("dd");
+    ddPublicationBookElement.setAttribute("itemprop", "publicationBook");
+    ddPublicationBookElement.textContent = book.facts.publicationBook;
+
     dlElement.appendChild(dtElement);
     dlElement.appendChild(ddElement);
     dlElement.appendChild(imgElement);
 
     dlElement.appendChild(dtShortDescriptionElement);
     dlElement.appendChild(ddShortDescriptionElement);
+    dlElement.appendChild(dtPagesBookElement);
+    dlElement.appendChild(ddPagesBookElement);
+    dlElement.appendChild(dtPublicationBookElement);
+    dlElement.appendChild(ddPublicationBookElement);
 
     liElement.appendChild(dlElement);
     ulElement.appendChild(liElement);
