@@ -1,8 +1,9 @@
 import {
-  sortByPagesAscending,
+  // sortByPagesAscending,
   sortByPagesDescending,
   sortByPublicationBookAscending,
   sortByPublicationBookDescending,
+  sortData,
 } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
@@ -16,7 +17,8 @@ sortSelectElement.addEventListener("change", function () {
   const selectedValue = sortSelectElement.value;
 
   if (selectedValue === "number-of-pages-ascending") {
-    processedData = sortByPagesAscending(data);
+    // processedData = sortByPagesAscending(data);
+    processedData = sortData(data, "pagesBook", "asc");
   }
   if (selectedValue === "number-of-pages-descending") {
     processedData = sortByPagesDescending(data);
