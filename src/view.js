@@ -9,6 +9,9 @@ export const renderItems = (data) => {
     dlElement.setAttribute("itemscope", "");
     dlElement.setAttribute("itemtype", "http://schema.org/Book");
 
+    const dtElement = document.createElement("dt");
+    dtElement.textContent = "name";
+
     const ddElement = document.createElement("dd");
     ddElement.setAttribute("itemprop", "name");
     ddElement.textContent = book.name;
@@ -19,14 +22,18 @@ export const renderItems = (data) => {
     imgElement.src = book.imageUrl;
     imgElement.setAttribute("itemprop", "image");
 
-    const ddSElement = document.createElement("dd");
-    ddSElement.setAttribute("itemprop", "shortDescription");
-    ddSElement.textContent = book.shortDescription;
+    const dtShortDescriptionElement = document.createElement("dt");
+    dtElement.textContent = "shortDescription";
+    const ddShortDescriptionElement = document.createElement("dd");
+    ddShortDescriptionElement.setAttribute("itemprop", "shortDescription");
+    ddShortDescriptionElement.textContent = book.shortDescription;
 
+    dlElement.appendChild(dtElement);
     dlElement.appendChild(ddElement);
     dlElement.appendChild(imgElement);
 
-    dlElement.appendChild(ddSElement);
+    dlElement.appendChild(dtShortDescriptionElement);
+    dlElement.appendChild(ddShortDescriptionElement);
 
     liElement.appendChild(dlElement);
     ulElement.appendChild(liElement);
