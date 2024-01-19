@@ -51,14 +51,13 @@ body {
   background: var(--bg-gradient) 100% no-repeat,
     url(images/header-nocolor-bg.png) top center/cover no-repeat;
   color: white;
-  /* padding-bottom: 15em; */
-  /* height: 100vh; */
 }
 
 #header-title {
   background-color: var(--white);
   color: var(--dark-black);
-  padding: 1.5em;
+  margin-left: 20px;
+  /* padding: 1.5em; */
 }
 
 #header-filter {
@@ -73,6 +72,11 @@ body {
 
 #header-filter select {
   margin-right: 35px;
+}
+
+header img {
+  height: 100px;
+  width: 250px;
 }
 
 nav {
@@ -102,14 +106,37 @@ nav a {
   color: var(--white);
 }
 
+#sort {
+  padding: 1.5rem;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 60px;
+  /* background-color: #f0f0f0; */
+  background: linear-gradient(
+    206.57deg,
+    rgba(15, 91, 151, 0.1) 0%,
+    rgba(12, 68, 112, 0.1) 100%
+  );
+  border-top: 2px solid #fff;
+  color: var(--white);
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 #healder-filter {
   align-items: center;
   justify-content: center;
 }
 
+#sort label {
+  margin-right: 5px;
+}
+
 select {
   display: flex;
-  color: var(--white);
 }
 
 main {
@@ -141,10 +168,21 @@ ul {
   box-sizing: border-box;
 }
 
-.books h2 {
+dl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+dt {
+  display: none;
+}
+
+dd.book-name {
   font-size: 1rem;
   height: 50px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 footer {

@@ -6,47 +6,36 @@ export const renderItems = (data) => {
     liElement.classList.add("books");
 
     const dlElement = document.createElement("dl");
-
     dlElement.setAttribute("itemscope", "");
     dlElement.setAttribute("itemtype", "http://schema.org/Book");
 
     const dtElement = document.createElement("dt");
-    dtElement.textContent = book.name;
+    dtElement.textContent = "name";
 
     const ddElement = document.createElement("dd");
     ddElement.setAttribute("itemprop", "name");
     ddElement.textContent = book.name;
 
-    const dtSElement = document.createElement("dt");
-    dtSElement.textContent = book.shortDescription;
+    ddElement.classList.add("book-name");
 
-    const ddSElement = document.createElement("dd");
-    ddSElement.setAttribute("itemprop", "name");
-    ddSElement.textContent = book.shortDescription;
+    const imgElement = document.createElement("img");
+    imgElement.src = book.imageUrl;
+    imgElement.setAttribute("itemprop", "image");
 
-    dlElement.appendChild(dtElement, ddElement);
+    const dtShortDescriptionElement = document.createElement("dt");
+    dtElement.textContent = "shortDescription";
+    const ddShortDescriptionElement = document.createElement("dd");
+    ddShortDescriptionElement.setAttribute("itemprop", "shortDescription");
+    ddShortDescriptionElement.textContent = book.shortDescription;
+
+    dlElement.appendChild(dtElement);
+    dlElement.appendChild(ddElement);
+    dlElement.appendChild(imgElement);
+
+    dlElement.appendChild(dtShortDescriptionElement);
+    dlElement.appendChild(ddShortDescriptionElement);
 
     liElement.appendChild(dlElement);
-
-    dlElement.appendChild(dtSElement, ddSElement);
-
-    // liElement.setAttribute("itemscope", "");
-    // liElement.setAttribute("itemtype", "http://schema.org/Book");
-
-    // const titleElement = document.createElement("h2");
-    // titleElement.textContent = book.name;
-    // titleElement.setAttribute("itemprop", "name");
-    // liElement.appendChild(titleElement);
-
-    // const imgElement = document.createElement("img");
-    // imgElement.src = book.imageUrl;
-    // imgElement.setAttribute("itemprop", "image");
-    // liElement.appendChild(imgElement);
-
-    // const descriptionElement = document.createElement("p");
-    // descriptionElement.textContent = book.shortDescription;
-    // descriptionElement.setAttribute("itemprop", "description");
-    // liElement.appendChild(descriptionElement);
     ulElement.appendChild(liElement);
   });
 
