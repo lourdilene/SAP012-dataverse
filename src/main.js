@@ -47,6 +47,25 @@ filterSelectElement.addEventListener("change", function () {
   rootElement.appendChild(renderItems(processedData));
 });
 
+filterSelectElement.addEventListener("change", function () {
+  const selectedValue = filterSelectElement.value;
+  if (selectedValue === "novel") {
+    processedData = filterByTypeBookMovie(data);
+  }
+  rootElement.innerHTML = "";
+  rootElement.appendChild(renderItems(processedData));
+});
+
+filterSelectElement.addEventListener("change", function () {
+  const selectedValue = filterSelectElement.value;
+  if (selectedValue === "theater") {
+    processedData = filterByTypeBookMovie(data);
+  }
+  rootElement.innerHTML = "";
+  rootElement.appendChild(renderItems(processedData));
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
   rootElement.appendChild(renderItems(data));
 });
