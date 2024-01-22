@@ -42,6 +42,16 @@ export const filterByTypeBookMovie = (data) => {
   return data.filter((book) => book.facts.typeBook === "movie");
 };
 
+
+export const filterByTypeBookNovel = (data) => {
+  return data.filter((book) => book.facts.typeBook === "novel");
+};
+
+export const filterByTypeBookTheather = (data) => {
+  return data.filter((book) => book.facts.typeBook === "theather");
+};
+
+
 export const anotherExample = () => {
   return [];
 };

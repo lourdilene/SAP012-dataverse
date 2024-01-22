@@ -244,7 +244,7 @@ export const data = [
       "Death on the Nile' is a classic mystery novel by Agatha Christie. Set against the exotic backdrop of a luxurious cruise on the Nile River, detective Hercule Poirot investigates the murder of a wealthy heiress, Linnet Ridgeway. As Poirot unravels the intricate web of relationships among the passengers, he discovers jealousy, revenge, and hidden motives. The novel is a masterful exploration of human nature, filled with suspense and clever twists that keep readers on the edge of their seats. Christie's brilliant storytelling and intricate plotting make 'Death on the Nile' a timeless and captivating whodunit.",
     shortDescription:
       "Agatha Christie's 'Death on the Nile': A riveting Nile River cruise becomes a crime scene, revealing secrets, jealousy, and murder.",
-    imageUrl: "https://github.com/TaGoulart/SAP012-dataverse/main/src/images/books/14.jpg",
+    imageUrl: "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/14.jpg",
     facts: {
       authorBook: "Agatha Christie",
       pagesBook: "320",
@@ -434,5 +434,5 @@ export const data = [
       typeBook:"novel"
     },
   }, 
-
+  
 ];
