@@ -3,21 +3,30 @@ import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
-const rootElement = document.getElementById("root");
+const rootElement = document.querySelector("#root");
 let processedData = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-  const sortSelectElement = document.getElementById("sorts");
-  const orderSelectElement = document.getElementById("ordenacao");
+  const sortSelectElement = document.querySelector("#sorts");
+  const orderSelectElement = document.querySelector("#ordenacao");
 
-  orderSelectElement.disabled = true;
+  // orderSelectElement.disabled = true;
 
   sortSelectElement.addEventListener("change", function () {
     const sortBy = sortSelectElement.value;
 
-    orderSelectElement.disabled = false;
+    // orderSelectElement.disabled = false;
 
     processedData = sortData(data, sortBy, orderSelectElement.value);
+
+    // const pagesBookValues = processedData.map(
+    //   (book) =>
+    //     book.facts[
+    //       sortBy.replace(/-([a-z])/g, (match, group1) => group1.toUpperCase())
+    //     ]
+    // );
+    // console.log(pagesBookValues);
+    // console.log(sortBy, orderSelectElement.value);
 
     rootElement.innerHTML = "";
 
@@ -27,6 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const sortBy = sortSelectElement.value;
 
     processedData = sortData(data, sortBy, orderSelectElement.value);
+    // const pagesBookValues = processedData.map(
+    //   (book) =>
+    //     book.facts[
+    //       sortBy.replace(/-([a-z])/g, (match, group1) => group1.toUpperCase())
+    //     ]
+    // );
+    // console.log(pagesBookValues);
+    // console.log(sortBy, orderSelectElement.value);
 
     rootElement.innerHTML = "";
 
