@@ -3,11 +3,12 @@ export const renderItems = (data) => {
 
   data.forEach((book) => {
     const liElement = document.createElement("li");
+    liElement.setAttribute("itemscope", "");
+    liElement.setAttribute("itemtype", "http://schema.org/Book");
+
     liElement.classList.add("books");
 
     const dlElement = document.createElement("dl");
-    dlElement.setAttribute("itemscope", "");
-    dlElement.setAttribute("itemtype", "http://schema.org/Book");
 
     const dtElement = document.createElement("dt");
     dtElement.textContent = "name";
@@ -31,15 +32,15 @@ export const renderItems = (data) => {
     //pagesbook
     const dtPagesBookElement = document.createElement("dt");
     dtPagesBookElement.textContent = book.facts.pagesBook;
-    
+
     const ddPagesBookElement = document.createElement("dd");
     ddPagesBookElement.setAttribute("itemprop", "pagesBook");
-    ddPagesBookElement.textContent = book.facts.pagesBook; 
-    
+    ddPagesBookElement.textContent = book.facts.pagesBook;
+
     //publicationBook
     const dtPublicationBookElement = document.createElement("dt");
     dtPublicationBookElement.textContent = book.facts.publicationBook;
-    
+
     const ddPublicationBookElement = document.createElement("dd");
     ddPublicationBookElement.setAttribute("itemprop", "publicationBook");
     ddPublicationBookElement.textContent = book.facts.publicationBook;

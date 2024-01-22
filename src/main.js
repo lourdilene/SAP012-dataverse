@@ -1,71 +1,62 @@
-import {
-  sortByPagesAscending,
-  sortByPagesDescending,
-  sortByPublicationBookAscending,
-  sortByPublicationBookDescending,
-  filterByTypeBookMovie,
-} from "./dataFunctions.js";
+import { sortData, filterData } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
-const sortSelectElement = document.getElementById("sorts");
-const filterSelectElement = document.getElementById("filters");
-const rootElement = document.getElementById("root");
+const rootElement = document.querySelector("#root");
 let processedData = [];
 
-sortSelectElement.addEventListener("change", function () {
-  const selectedValue = sortSelectElement.value;
-
-  if (selectedValue === "number-of-pages-ascending") {
-    processedData = sortByPagesAscending(data);
-  }
-  if (selectedValue === "number-of-pages-descending") {
-    processedData = sortByPagesDescending(data);
-  }
-  if (selectedValue === "year-of-publication-ascending") {
-    processedData = sortByPublicationBookAscending(data);
-  }
-  if (selectedValue === "year-of-publication-descending") {
-    processedData = sortByPublicationBookDescending(data);
-  }
-  if (selectedValue === "featured") {
-    processedData = data;
-  }
-
-  rootElement.innerHTML = "";
-
-  rootElement.appendChild(renderItems(processedData));
-});
-
-filterSelectElement.addEventListener("change", function () {
-  const selectedValue = filterSelectElement.value;
-  if (selectedValue === "movie") {
-    processedData = filterByTypeBookMovie(data);
-  }
-  rootElement.innerHTML = "";
-  rootElement.appendChild(renderItems(processedData));
-});
-
-filterSelectElement.addEventListener("change", function () {
-  const selectedValue = filterSelectElement.value;
-  if (selectedValue === "novel") {
-    processedData = filterByTypeBookMovie(data);
-  }
-  rootElement.innerHTML = "";
-  rootElement.appendChild(renderItems(processedData));
-});
-
-filterSelectElement.addEventListener("change", function () {
-  const selectedValue = filterSelectElement.value;
-  if (selectedValue === "theater") {
-    processedData = filterByTypeBookMovie(data);
-  }
-  rootElement.innerHTML = "";
-  rootElement.appendChild(renderItems(processedData));
-});
-
-
 document.addEventListener("DOMContentLoaded", function () {
+  const sortSelectElement = document.querySelector("#sorts");
+  const filterSelectElement = document.querySelector("#filters");
+  const orderSelectElement = document.querySelector("#ordenacao");
+
+  // orderSelectElement.disabled = true;
+  filterSelectElement.addEventListener("change", function () {
+    const selectedValue = filterSelectElement.value;
+    if (selectedValue === "novel") {
+      processedData = filterData(data);
+    }
+    rootElement.innerHTML = "";
+    rootElement.appendChild(renderItems(processedData));
+  });
+
+  sortSelectElement.addEventListener("change", function () {
+    const sortBy = sortSelectElement.value;
+
+    // orderSelectElement.disabled = false;
+
+    processedData = sortData(data, sortBy, orderSelectElement.value);
+
+    // const pagesBookValues = processedData.map(
+    //   (book) =>
+    //     book.facts[
+    //       sortBy.replace(/-([a-z])/g, (match, group1) => group1.toUpperCase())
+    //     ]
+    // );
+    // console.log(pagesBookValues);
+    // console.log(sortBy, orderSelectElement.value);
+
+    rootElement.innerHTML = "";
+
+    rootElement.appendChild(renderItems(processedData));
+  });
+  orderSelectElement.addEventListener("change", function () {
+    const sortBy = sortSelectElement.value;
+
+    processedData = sortData(data, sortBy, orderSelectElement.value);
+    // const pagesBookValues = processedData.map(
+    //   (book) =>
+    //     book.facts[
+    //       sortBy.replace(/-([a-z])/g, (match, group1) => group1.toUpperCase())
+    //     ]
+    // );
+    // console.log(pagesBookValues);
+    // console.log(sortBy, orderSelectElement.value);
+
+    rootElement.innerHTML = "";
+
+    rootElement.appendChild(renderItems(processedData));
+  });
   rootElement.appendChild(renderItems(data));
 });
