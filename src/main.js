@@ -13,11 +13,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // orderSelectElement.disabled = true;
   filterSelectElement.addEventListener("change", function () {
-    const selectedValue = filterSelectElement.value;
-    if (selectedValue === "novel") {
-      processedData = filterData(data);
-    }
+    // const selectedValue = filterSelectElement.value;
+    console.log(filterSelectElement.value, filterSelectElement.name);
+    // if (selectedValue === "novel") {
+    // }
     rootElement.innerHTML = "";
+    processedData = filterData(
+      data,
+      filterSelectElement.name,
+      filterSelectElement.value
+    );
     rootElement.appendChild(renderItems(processedData));
   });
 

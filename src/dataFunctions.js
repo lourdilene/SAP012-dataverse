@@ -23,6 +23,7 @@ export const sortData = (data, sortBy, sortOrder) => {
   return OrderedBooks;
 };
 
-export const filterData = (data) => {
-  return data.filter((book) => book.facts.typeBook === "theather");
+export const filterData = (data, filterBy, value) => {
+  const filterByCamelCase = transformToCamelCase(filterBy);
+  return data.filter((book) => book.facts[filterByCamelCase] === value);
 };
