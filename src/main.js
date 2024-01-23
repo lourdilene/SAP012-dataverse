@@ -5,18 +5,14 @@ import data from "./data/dataset.js";
 
 const rootElement = document.querySelector("#root");
 let processedData = [];
+let processedDataAfterFilter = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-  const sortSelectElement = document.querySelector("#sorts");
   const filterSelectElement = document.querySelector("#filters");
+  const sortSelectElement = document.querySelector("#sorts");
   const orderSelectElement = document.querySelector("#ordenacao");
 
-  // orderSelectElement.disabled = true;
   filterSelectElement.addEventListener("change", function () {
-    // const selectedValue = filterSelectElement.value;
-    console.log(filterSelectElement.value, filterSelectElement.name);
-    // if (selectedValue === "novel") {
-    // }
     rootElement.innerHTML = "";
     processedData = filterData(
       data,
@@ -27,11 +23,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   sortSelectElement.addEventListener("change", function () {
-    const sortBy = sortSelectElement.value;
-
-    // orderSelectElement.disabled = false;
-
-    processedData = sortData(data, sortBy, orderSelectElement.value);
+    processedDataAfterFilter = sortData(
+      processedData,
+      sortSelectElement.value,
+      orderSelectElement.value
+    );
 
     // const pagesBookValues = processedData.map(
     //   (book) =>
@@ -44,12 +40,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     rootElement.innerHTML = "";
 
-    rootElement.appendChild(renderItems(processedData));
+    rootElement.appendChild(renderItems(processedDataAfterFilter));
   });
-  orderSelectElement.addEventListener("change", function () {
-    const sortBy = sortSelectElement.value;
 
-    processedData = sortData(data, sortBy, orderSelectElement.value);
+  orderSelectElement.addEventListener("change", function () {
+    processedDataAfterFilter = sortData(
+      processedData,
+      sortSelectElement.value,
+      orderSelectElement.value
+    );
     // const pagesBookValues = processedData.map(
     //   (book) =>
     //     book.facts[
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     rootElement.innerHTML = "";
 
-    rootElement.appendChild(renderItems(processedData));
+    rootElement.appendChild(renderItems(processedDataAfterFilter));
   });
   rootElement.appendChild(renderItems(data));
 });
