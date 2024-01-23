@@ -4,14 +4,14 @@ import { renderItems } from "./view.js";
 import data from "./data/dataset.js";
 
 const rootElement = document.querySelector("#root");
+const buttonElement = document.querySelector("#clear-button");
+const filterSelectElement = document.querySelector("#filters");
+const sortSelectElement = document.querySelector("#sorts");
+const orderSelectElement = document.querySelector("#ordenacao");
 let processedData = [];
 let processedDataAfterFilter = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-  const filterSelectElement = document.querySelector("#filters");
-  const sortSelectElement = document.querySelector("#sorts");
-  const orderSelectElement = document.querySelector("#ordenacao");
-
   filterSelectElement.addEventListener("change", function () {
     rootElement.innerHTML = "";
     processedData = filterData(
@@ -29,15 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
       orderSelectElement.value
     );
 
-    // const pagesBookValues = processedData.map(
-    //   (book) =>
-    //     book.facts[
-    //       sortBy.replace(/-([a-z])/g, (match, group1) => group1.toUpperCase())
-    //     ]
-    // );
-    // console.log(pagesBookValues);
-    // console.log(sortBy, orderSelectElement.value);
-
     rootElement.innerHTML = "";
 
     rootElement.appendChild(renderItems(processedDataAfterFilter));
@@ -49,18 +40,16 @@ document.addEventListener("DOMContentLoaded", function () {
       sortSelectElement.value,
       orderSelectElement.value
     );
-    // const pagesBookValues = processedData.map(
-    //   (book) =>
-    //     book.facts[
-    //       sortBy.replace(/-([a-z])/g, (match, group1) => group1.toUpperCase())
-    //     ]
-    // );
-    // console.log(pagesBookValues);
-    // console.log(sortBy, orderSelectElement.value);
 
     rootElement.innerHTML = "";
 
     rootElement.appendChild(renderItems(processedDataAfterFilter));
   });
   rootElement.appendChild(renderItems(data));
+});
+
+buttonElement.addEventListener("click", () => {
+  filterSelectElement.value = "selecione";
+  sortSelectElement.value = "selecione";
+  orderSelectElement.value = "selecione";
 });
