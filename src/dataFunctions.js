@@ -32,5 +32,20 @@ export const filterData = (data, filterBy, value) => {
 };
 
 export const computeStats = (data) => {
-  return data;
+  const typeCounts = data.reduce((counts, book) => {
+    const type = transformToCamelCase(book.facts.typeBook);
+    counts[type] = (counts[type] || 0) + 1;
+    return counts;
+  }, {});
+
+  const result = Object.entries(typeCounts).map(([type, count]) => [
+    capitalizeFirstLetter(type),
+    count,
+  ]);
+
+  return result;
+};
+
+const capitalizeFirstLetter = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 };
