@@ -30,3 +30,7 @@ export const filterData = (data, filterBy, value) => {
   }
   return data.filter((book) => book.facts[filterByCamelCase] === value);
 };
+
+export const computeStats = (data) => {
+  return data;
+};
