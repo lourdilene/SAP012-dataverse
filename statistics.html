@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Dataverse</title>
+    <title>Statistics</title>
   </head>
+  <script
+    type="text/javascript"
+    src="https://www.gstatic.com/charts/loader.js"
+  ></script>
   <body>
     <header>
       <div id="header-line"></div>
@@ -39,29 +43,22 @@
             <option value="pages-book">Number of Pages:</option>
             <option value="publication-book">Year of Publication:</option>
           </select>
-          <label for="ordenacao"></label>
           <select name="ordem-ordenacao" id="ordenacao">
             <option value="selecione">Selecione</option>
             <option value="asc">Asc</option>
             <option value="desc">Desc</option>
           </select>
-          <button
-            data-testid="botao-limpar"
-            id="clear-button"
-            value="clear-filters"
-          >
-            Clear
-          </button>
+          <button data-testid="botao-limpar" id="clear-button">Clear</button>
         </div>
       </div>
     </header>
     <main>
-      <div id="root"></div>
+      <div id="chart_div"></div>
     </main>
     <footer>
       <p>Lourdilene Souza | Tamara Gonçalves</p>
     </footer>
     <div id="header__line"></div>
-    <script src="main.js" type="module"></script>
+    <script src="googleChart.js" type="module"></script>
   </body>
 </html>
