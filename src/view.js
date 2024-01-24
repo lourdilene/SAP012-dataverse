@@ -29,7 +29,6 @@ export const renderItems = (data) => {
     ddShortDescriptionElement.setAttribute("itemprop", "shortDescription");
     ddShortDescriptionElement.textContent = book.shortDescription;
 
-    //pagesbook
     const dtPagesBookElement = document.createElement("dt");
     dtPagesBookElement.textContent = book.facts.pagesBook;
 
@@ -37,7 +36,6 @@ export const renderItems = (data) => {
     ddPagesBookElement.setAttribute("itemprop", "pagesBook");
     ddPagesBookElement.textContent = book.facts.pagesBook;
 
-    //publicationBook
     const dtPublicationBookElement = document.createElement("dt");
     dtPublicationBookElement.textContent = book.facts.publicationBook;
 

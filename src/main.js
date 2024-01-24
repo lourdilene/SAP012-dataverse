@@ -48,8 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
   rootElement.appendChild(renderItems(data));
 });
 
-buttonElement.addEventListener("click", () => {
-  filterSelectElement.value = "selecione";
-  sortSelectElement.value = "selecione";
-  orderSelectElement.value = "selecione";
+buttonElement.addEventListener("click", (event) => {
+  if (event.target.value === "clear-filters") {
+    filterSelectElement.value = "selecione";
+    sortSelectElement.value = "selecione";
+    orderSelectElement.value = "selecione";
+  }
 });
