@@ -25,8 +25,8 @@
         </nav>
         <div id="header-filter">
           <label for="filters">Filter:</label>
-          <select name="type-book" id="filters" data-testid="selecionar-filtro">
-            <option value="selecione">Selecione</option>
+          <select name="type-book" id="filters" data-testid="select-filter">
+            <option value="all">All</option>
             <option value="novel">Novel</option>
             <option value="movie">Movie</option>
             <option value="theater">Theater</option>
@@ -34,19 +34,19 @@
         </div>
         <div id="sort">
           <label for="sorts">Sort by: </label>
-          <select name="sort" id="sorts" data-testid="selecionar-ordenar">
-            <option value="selecione">Selecione</option>
+          <select name="sort" id="sorts" data-testid="select-sort">
+            <!-- <option value="selecione">Selecione</option> -->
             <option value="pages-book">Number of Pages:</option>
             <option value="publication-book">Year of Publication:</option>
           </select>
           <label for="ordenacao"></label>
-          <select name="ordem-ordenacao" id="ordenacao">
-            <option value="selecione">Selecione</option>
+          <select name="sort-order" id="ordenacao" data-testid="select-order">
+            <!-- <option value="selecione">Selecione</option> -->
             <option value="asc">Asc</option>
             <option value="desc">Desc</option>
           </select>
           <button
-            data-testid="botao-limpar"
+            data-testid="button-clear"
             id="clear-button"
             value="clear-filters"
           >

@@ -23,10 +23,10 @@ export const sortData = (data, sortBy, sortOrder) => {
 
 export const filterData = (data, filterBy, value) => {
   const filterByCamelCase = transformToCamelCase(filterBy);
-  // if (value === "selecione") {
-  //   return data;
-  // }
-  return data.filter((book) => book.facts[filterByCamelCase] === value);
+  const filteredBooks = data.filter((book) => {
+    return book.facts[filterByCamelCase] === value;
+  });
+  return filteredBooks;
 };
 
 export const computeStats = (data) => {
