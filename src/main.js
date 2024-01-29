@@ -14,6 +14,9 @@ let processedDataAfterFilter = [];
 document.addEventListener("DOMContentLoaded", function () {
   filterSelectElement.addEventListener("change", function () {
     rootElement.innerHTML = "";
+    if (filterSelectElement.value === "selecione") {
+      return rootElement.appendChild(renderItems(data));
+    }
     processedData = filterData(
       data,
       filterSelectElement.name,
@@ -53,5 +56,7 @@ buttonElement.addEventListener("click", (event) => {
     filterSelectElement.value = "selecione";
     sortSelectElement.value = "selecione";
     orderSelectElement.value = "selecione";
+    rootElement.innerHTML = "";
+    rootElement.appendChild(renderItems(data));
   }
 });

@@ -21,7 +21,7 @@ export const renderItems = (data) => {
 
     const imgElement = document.createElement("img");
     imgElement.src = book.imageUrl;
-    imgElement.setAttribute("itemprop", "image");
+    imgElement.setAttribute("itemprop", "img");
 
     const dtShortDescriptionElement = document.createElement("dt");
     dtElement.textContent = "shortDescription";
@@ -33,19 +33,19 @@ export const renderItems = (data) => {
     dtPagesBookElement.textContent = book.facts.pagesBook;
 
     const ddPagesBookElement = document.createElement("dd");
-    ddPagesBookElement.setAttribute("itemprop", "pagesBook");
+    ddPagesBookElement.setAttribute("itemprop", "sort");
     ddPagesBookElement.textContent = book.facts.pagesBook;
 
     const dtPublicationBookElement = document.createElement("dt");
     dtPublicationBookElement.textContent = book.facts.publicationBook;
 
     const ddPublicationBookElement = document.createElement("dd");
-    ddPublicationBookElement.setAttribute("itemprop", "publicationBook");
+    ddPublicationBookElement.setAttribute("itemprop", "sort");
     ddPublicationBookElement.textContent = book.facts.publicationBook;
 
+    dlElement.appendChild(imgElement);
     dlElement.appendChild(dtElement);
     dlElement.appendChild(ddElement);
-    dlElement.appendChild(imgElement);
 
     dlElement.appendChild(dtShortDescriptionElement);
     dlElement.appendChild(ddShortDescriptionElement);
