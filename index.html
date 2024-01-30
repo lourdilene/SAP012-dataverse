@@ -10,48 +10,62 @@
     <header>
       <div id="header-line"></div>
       <div id="header-title">
-        <h1>
-          <img src="images/logo.png" alt="signature agatha christie" />
-        </h1>
+        <img src="images/logo.png" alt="signature agatha christie" />
+        <ul>
+          <li><a href="#">Create account</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
       </div>
       <div id="header-content">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="statistics.html">Statistics</a></li>
           </ul>
         </nav>
-        <div id="header-filter">
-          <label for="filters">Filter:</label>
-          <select name="type-book" id="filters" data-testid="selecionar-filtro">
-            <option value="selecione">Selecione</option>
-            <option value="novel">Novel</option>
-            <option value="movie">Movie</option>
-            <option value="theater">Theater</option>
-          </select>
-        </div>
-        <div id="sort">
-          <label for="sorts">Sort by: </label>
-          <select name="sort" id="sorts" data-testid="selecionar-ordenar">
-            <option value="selecione">Selecione</option>
-            <option value="pages-book">Number of Pages:</option>
-            <option value="publication-book">Year of Publication:</option>
-          </select>
-          <label for="ordenacao"></label>
-          <select name="ordem-ordenacao" id="ordenacao">
-            <option value="selecione">Selecione</option>
-            <option value="asc">Asc</option>
-            <option value="desc">Desc</option>
-          </select>
-          <button
-            data-testid="botao-limpar"
-            id="clear-button"
-            value="clear-filters"
-          >
-            Clear
-          </button>
+        <div id="content-bottom">
+          <h1>Find your favorite Agatha Christie`s Book</h1>
+          <div id="header-filter">
+            <div class="header-filter__select">
+              <label for="filters" id="filter">Filter:</label>
+              <select name="type-book" id="filters" data-testid="select-filter">
+                <option value="select" disabled selected>Filter</option>
+                <option value="all">All</option>
+                <option value="novel">Novel</option>
+                <option value="movie">Movie</option>
+                <option value="theater">Theater</option>
+              </select>
+            </div>
+            <div class="header-filter__select">
+              <label for="sorts">Sort by: </label>
+              <select name="sort" id="sorts" data-testid="select-sort">
+                <option value="select" disabled selected>Sort</option>
+                <option value="pages-book">Pages</option>
+                <option value="publication-book">Year</option>
+              </select>
+            </div>
+            <div class="header-filter__select">
+              <label for="ordenacao">Order by:</label>
+              <select
+                name="sort-order"
+                id="ordenacao"
+                data-testid="select-order"
+              >
+                <option value="select" disabled selected>Order</option>
+                <option value="asc">Asc</option>
+                <option value="desc">Desc</option>
+              </select>
+            </div>
+            <button
+              data-testid="button-clear"
+              id="clear-button"
+              value="clear-filters"
+            >
+              Clear
+            </button>
+          </div>
         </div>
       </div>
     </header>
