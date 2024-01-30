@@ -116,11 +116,11 @@ Leitora assídua e fã da Agatha Christie:
 
  Design Mobile:
 
-[*** print do site no celular***](https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/mobile.png)
+![*** print do site no celular***](https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/mobile.png)
 
 Design Desktop:
 
-[*** print do site desktop***](https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/desktop.png)
+![*** print do site desktop***](https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/desktop.png)
 
 ## 6. Critérios de qualidade e aceitação
 
