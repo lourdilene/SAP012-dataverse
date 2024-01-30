@@ -1,6 +1,6 @@
 export const transformToCamelCase = (param) => {
-  const modifiedString = param.replace(/-([a-z])/g, (match, group1) =>
-    group1.toUpperCase()
+  const modifiedString = param.replace(/-([a-z])/g, (match, group) =>
+    group.toUpperCase()
   );
   return modifiedString;
 };
