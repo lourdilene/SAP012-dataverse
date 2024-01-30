@@ -4,153 +4,83 @@
 
 * [1. Preâmbulo](#1-preâmbulo)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
-* [4. Funcionalidades](#4-funcionalidades)
-* [5. Considerações técnicas](#5-considerações-técnicas)
-* [6. Critérios de aceitação mínimos do projeto](#6-critérios-de-aceitação-mínimos-do-projeto)
-* [7. Edição Hacker](#7-edição-hacker)
-* [8. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
-* [9. Dicas, guias e leituras complementares](#9-dicas-guias-e-leituras-complementares)
-* [10. Considerações para pedir seu Feedback do Projeto](#10-considerações-para-pedir-seu-feedback-do-projeto)
+* [3. Protótipo](#3-Protótipo)
+* [4. Funcionalidades](#3-Funcionalidades)
+* [5. Historia do usuário](#4-Historia-do-usuário)
+* [6. Critérios de aceitação mínimos do projeto](#6-Critérios-de-aceitação-mínimos-do-projeto)
+* [6. Objetivos técnicas](#5-considerações-técnicas)
+* [7. Objetivos de aprendizagem](#8-objetivos-de-aprendizagem)
+
 
 ***
 
 ## 1. Preâmbulo
 
-Segundo a [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-90% dos dados existentes hoje foram criados nos últimos dois anos.
-A cada dia, geramos 2,5 milhões de terabytes de dados, um número sem
-precedentes.
-
-No entanto, os dados por si só têm pouca utilidade. Para que essas grandes
-quantidades de dados se transformem em **informação** fácil de ler para
-as usuárias, precisamos entender e processar esses dados. Uma maneira
-simples de fazer isso é criando _interfaces_ e _visualizações_.
-
-Na imagem a seguir, você poderá ver como, com os dados mostrados à esquerda,
-é possível construir uma interface amigável e compreensível para as usuárias,
-à direita.
-
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+Projeto desenvolvido através do bootcamp da Laboratória.
 
 ## 2. Resumo do projeto
 
-Neste projeto, você **construirá um _site_ para visualizar um
-_conjunto de dados_** que você irá gerar através do [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/).
-Este site será adaptado para atender às necessidades que você
-descobrir que suas usuárias têm.
+Neste projeto construimos um site que permite visualizar um conjunto de dados gerados através de técnicas de prompting e ferramentas de inteligência artificial, como ChatGPT. E o site foi adaptado de acordo com as necessidades dos usuários.
 
-Além disso, neste projeto, você utilizará ferramentas de
-[inteligência artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
-como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre outras, para gerar um conjunto de dados em um arquivo javascript.
+Para gerar o conjunto de dados, utilizamos as capacidades da inteligência artificial, explorando o poder do prompting para moldar os dados de forma precisa. A ideia foi criar um arquivo javascript robusto que atenda às especificações desejadas.
 
-O propósito de gerar os dados dessa maneira é oferecer a oportunidade
-de se envolver com o uso de ferramentas impulsionadas pela inteligência
-artificial, assim como com [técnicas de prompting](https://learnprompting.org/pt/docs/intro).
+Desenvolvemos um projeto de um site intuitivo, no qual as usuárias poderão visualizar, filtrar, ordenar e calcular estatísticas sobre o conjunto de dados. As estatísticas, como avaliação média dos livros, média dos números de páginas e tempo de leitura.
 
-Como entrega final, você terá um site que permitirá **visualizar os dados,
-filtrá-los, ordená-los e calcular estatísticas**. Por estatísticas,
-referimo-nos a diferentes cálculos que você pode fazer com os dados
-para mostrar informações ainda mais relevantes às usuárias (média,
-valor máximo ou mínimo, etc).
+## 3. Protótipo
 
-## 3. Considerações gerais
+Desktop Landing Page e Design Mobile
 
-* Este projeto deve ser realizado em duplas.
-* O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
-* O tempo estimado que você deve dedicar à [geração de dados](#geração-dos-dados)
-  é de no máximo dois dias. Além disso, no final do projeto, você deve
-  apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
-* Se perceber que vai demorar mais tempo,
-  deverá usar os dados de exemplo que encontrará 
-  neste caminho: `./src/data/dataset.js`.
-* O projeto será entregue ao enviar seu código para o GitHub (commit/push) e a
-  interface será implantada usando o [GitHub Pages](https://pages.github.com/).
+![Desktop landing page](https://github.com/Laboratoria/SAP012-dataverse/assets/93541783/9c4b8ea3-c155-452d-af3c-7d25ff506278)  ![mobile](https://github.com/Laboratoria/SAP012-dataverse/assets/93541783/ebb6699d-52d5-4f4d-bd88-84ea1012ce71)
+
 
 ## 4. Funcionalidades
 
-Como entrega final, você terá um site que permitirá **visualizar os dados,
-filtrá-los, ordená-los e calcular estatísticas**.
+Este repositório contém a entrega final de um site completamente funcional que incorporou os requisitos definidos. Abaixo estão detalhadas as funcionalidades mínimas implementadas:
 
-Aqui estão definidas com mais detalhes as funcionalidades mínimas que devem ser
-implementadas:
+* A aplicação foi desenvolvida para permitir que a usuária visualize os dados de forma intuitiva, utilizando uma visualização em formato de cartões, escolhido como a forma mais apropriada. Cada um dos cartões é representado por um elemento `<li>`, e todos os cartões estão contidos em um elemento `<ul>`.
 
-* A aplicação deve permitir que a usuária veja os itens dos dados em uma
-  visualização, que pode ser [tipo cartões](https://brasil.uxdesign.cc/https-brasil-uxdesign-cc-cards-boas-praticas-6ae813acf8cf)
-  ou qualquer outra forma que você decida como a mais apropriada
-  (mas a partir daqui chamamos os itens de "cartões"). **Cada um dos
-  cartões deve estar contido em um elemento `<li>` e estes, por sua vez,
-  contidos em um elemento `<ul>`.**
+* O elemento `<ul>` foi estruturado como filho de um elemento com o atributo id configurado como "root". Esta organização é essencial para garantir a correta estrutura da aplicação.
 
-* O elemento `<ul>` deve ser um filho de um elemento com o atributo _id_
-  com o valor "root". **Este é um passo importante para que sua**
-  **aplicação tenha a estrutura necessária.**
+* Os cartões foram projetados para destacar os valores das propriedades dos dados relevantes para a usuária, como nome, data, imagem, entre outros. Quando a usuária opta por filtrar ou ordenar os dados por uma propriedade específica, o cartão exibe o valor correspondente dessa propriedade.
 
-* Os cartões devem destacar os valores das propriedades dos dados que
-  interessariam à usuária ver. Por exemplo: nome, data, imagem, etc.
-  **Se você filtrar ou ordenar por uma propriedade, o cartão deve mostrar
-  o valor dessa propriedade para a usuária.**
+* A interface do site foi construída com uma estrutura semântica, seguindo o padrão de microdados. Essa implementação inclui obrigatoriamente os atributos itemscope, itemtype, e o atributo itemprop.
 
-* A interface deve estruturar semanticamente os dados usando o padrão 
-  [microdados](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
-  É obrigatório usar pelo menos os atributos 
-  [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
-  [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-  e o atributo 
-  [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
+Assim, este site atende plenamente às especificações e oferece uma experiência completa e eficiente para a usuária, permitindo a visualização, filtragem, ordenação e cálculo de estatísticas dos dados de forma clara e organizada.
 
-  Por exemplo, os seguintes dados correspondentes a Ada Lovelace:
+
+  Por exemplo, os seguintes dados correspondentes a The Witness for the Prosecution:
 
   ```json
-    {
-      "id": "ada-lovelace",
-      "name": "Ada Lovelace",
-      "shortDescription": "Pioneira da computação, foi a primeira programadora.",
-      "description": "Uma visionária do século XIX...",
-      "imageUrl": "URL_DA_IMAGEM_GERADA",
-      "facts": {
-        "yearOfBirth": 1843,
-        "placeOfBirth": "Londres, Inglaterra",
-        "mainField": "Ciência da Computação",
-      }
+     {
+    "id": "1",
+    "name": "The Witness for the Prosecution",
+    "description":
+      "In a captivating courtroom, the queen of crime weaves a renowned mystery novel full of surprises. This engaging puzzle, brimming with twists, turns, and captivating characters, keeps readers on the edge of their seats as Agatha Christie unravels an intricate plot. The courtroom setting adds a unique touch to the narrative, providing an exciting and unpredictable experience. Witness for the Prosecution is a compact masterpiece delving into the intricacies of the judicial system, blending the author's signature suspense with courtroom fascination, offering a compelling and mysterious read.",
+    "shortDescription":
+      "An engaging courtroom drama filled with mysteries and twists.",
+    "imageUrl": "https://raw.githubusercontent.com/TaGoulart/SAP012-dataverse/main/src/images/books/1.jpg",
+    "facts": {
+     "authorBook": "Agatha Christie",
+      "pagesBook": "234",
+      "publicationBook": "1994",
+     "readingTime": "23",
+     "ratingsBook": "3.9",
+      "typeBook": "theater"
+
     }
+  },
   ```
 
-  podem ser estruturados semanticamente em HTML como:
+* A aplicação calcula e exibe uma estatística dos dados. As propriedades calculadas de cada item, como média readingTime, ratingsBook e typeBook.
 
-  ```html
-  <dl itemscope itemtype="MulheresNaTecnologia">
-    <img src="URL_DA_IMAGEM_GERADA" alt="Ada Lovelace" />
-    <dt>Nome:</dt><dd itemprop="name">Ada Lovelace</dd>
-    <dt>Descrição:</dt><dd itemprop="description">Pioneira da computação, foi a primeira programadora.</dd>
-    <dt>Ano de nascimento:</dt><dd itemprop="yearOfBirth">1843</dd>
-    <dt>Local de nascimento:</dt><dd itemprop="placeOfBirth">Londres, Inglaterra</dd>
-    <dt>Área principal:</dt><dd itemprop="mainField">Ciência da Computação</dd>
-  </dl>
-  ```
+* A aplicação permite à usuária filtrar os dados. Foi utilizado um elemento `<select>`com um atributo de dados `data-testid="selecionar-filtro"`, e um atributo `name` com o nome da propriedade pela qual irá filtrar (por exemplo, se for filtrar por "tipo", o `<select>` terá `name="tipo"`. Os `<option>` deste `<select>` deverão ter no atributo `value` o valor do filtro (por exemplo, se for filtrar por tipo "movie", seria `<option value="Movie">Movie</option>`.
 
-* A aplicação deve calcular e exibir uma estatística dos dados. Pode
-  ser uma propriedade calculada de cada item, como uma propriedade adicional
-  (por exemplo, o índice de massa corporal de cada Pokémon) ou estatísticas
-  dos dados completos (por exemplo, total de pessoas nascidas nos anos 80).
-
-* A aplicação deve permitir à usuária filtrar os dados. Você usará
-  um elemento [`<select>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select)
-  com [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-  `data-testid="selecionar-filtro"`, e um atributo `name` com o nome
-  da propriedade pela qual irá filtrar (por exemplo, se for filtrar por "tipo",
-  o `<select>` terá `name="tipo"`). Os `<option>` deste `<select>` deverão
-  ter no atributo `value` o valor do filtro (por exemplo, se for filtrar
-  por tipo "fogo", seria `<option value="fogo">Fogo</option>`).
-
-* A aplicação deve permitir à usuária ordenar os dados.
+* A aplicação permite à usuária ordenar os dados.
   - Terá pelo menos um controle `<select>` para ordenar.
   - Se usar apenas um controle `<select>`, deve ter
-    [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
     `data-testid="selecionar-ordenar"` e um atributo `name` com o nome da
     propriedade pela qual irá ordenar (por exemplo, se for ordenar por
-    "num" seria `name="num"`). Este `<select>` terá dois [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
+    "num" seria `name="num"`). Este `<select>` terá dois `<option>`
     com `value` `asc` e `desc`, para ordenar de forma ascendente e descendente
     respectivamente (por exemplo, `<option value="asc">A - Z</option>`).
   - Uma alternativa é oferecer à usuária uma ordenação mais complexa.
@@ -163,44 +93,37 @@ implementadas:
     secundário terá um atributo `name="ordem-ordenacao"`, e terá valores
     `asc` e `desc`.
 
-* As funcionalidades de ordenação devem operar sobre os dados filtrados.
-  Por exemplo, se filtrar os Pokémons do tipo fogo e depois os ordenar por
+* As funcionalidades de ordenação devem opera sobre os dados filtrados.
+  Por exemplo, se filtrar os livros do tipo que foram feitos filmes e depois os ordenar por
   nome de forma ascendente, a aplicação deve manter o filtro aplicado e
-  ordenar os Pokémons do tipo fogo.
+  ordenar os Pokémons do tipo livros que foram feitos filmes.
 
-* A aplicação deve permitir à usuária reiniciar a aplicação, limpando
+* A aplicação permitir à usuária reiniciar a aplicação, limpando
   filtros e ordenamentos, com um `<button>` com um atributo de dados
   `data-testid="botao-limpar"`.
 
-* As operações de filtrar, ordenar, limpar, etc. não devem recarregar
-  a página, mas sim adicionar conteúdo de maneira
-  dinâmica via JavaScript.
-
-* A aplicação será _responsiva_, ou seja, deve ser visualizada sem problemas
+* A aplicação é _responsiva_, sendo possivel visualizar sem problemas
   em diferentes tamanhos de tela: celulares, tablets e desktops.
 
-Os seguintes wireframes são exemplos de uma interface que pode atender a essa
-funcionalidade. Como poderá ver, esses designs seguem a metodologia
-[Mobile First](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First),
-a mesma que recomendamos utilizar em todos os seus projetos:
+## 5. Histórias de usuário
 
-Design Mobile:
+Leitora assídua e fã da Agatha Christie:
 
-* [Wireframe mobile 1](https://github.com/Laboratoria/curriculum/assets/123121338/54711bb7-cb05-448e-b677-3cbd9bf13c14)
-* [Wireframe mobile 2](https://github.com/Laboratoria/curriculum/assets/123121338/bf96d3ce-150f-47a2-a605-2efac2e0497b)
+* Como leitora assídua gostaria de ordenar (crescente ou descendente) os livros por: data de publicação e números de páginas para escolher um livro mais facilmente.
+
+* Como leitora assídua gostaria de filtrar os livros por: título e palavaras-chave para escolher um livro mais facilmente. 
+
+* Como leitora assídua gostaria de visualizar as estatísticas dos livros por exemplo: média do numero das páginas, média de avaliacao, tempo de leitura por autor para escolher um livro mais facilmente.
+
+ Design Mobile:
+
+*** print do site no celular***
 
 Design Desktop:
 
-* [Wireframe desktop 1](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137084-1625aeb8-883c-4b79-86da-5fab34fa5b88.png)
-* [Wireframe desktop 2](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)
+*** print do site desktop***
 
-## 5. Considerações Técnicas
 
-A lógica do projeto deve ser implementada completamente em JavaScript
-(ES6), HTML e CSS. Neste projeto, NÃO é permitido usar bibliotecas ou
-frameworks, apenas [JavaScript puro](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-exceto bibliotecas para criação de gráficos (charts); veja a
-_seção opcional_](#7-hacker-edition) acima.
 
 O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, bem
 como todas as configurações de dependências:
@@ -222,6 +145,19 @@ como todas as configurações de dependências:
    └── dataFunctions.spec.js
    └── tests-read-only
 ```
+
+### `src/index.html`
+
+Como no projeto anterior, existe um arquivo `index.html`. Como já sabe,
+este é o arquivo que será exibido para a usuária. Também é útil para indicar
+quais scripts serão usados e para reunir tudo o que foi feito.
+
+## 6. Considerações Técnicas
+
+Foi implementada JavaScript(ES6), HTML e CSS. Neste projeto, não foi utilizado bibliotecas ou
+frameworks, apenas JavaScript puro, exceto bibliotecas para criação de gráficos (charts); 
+
+#### Geração dos dados
 
 ### `src/index.html`
 
@@ -447,31 +383,6 @@ irá criar as listas.
     e [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
     para importar e exportar valores de um módulo JavaScript
 
-### Critérios do Projeto
-
-#### Definição do produto
-
-Documente brevemente o seu trabalho no arquivo `README.md` do seu repositório,
-contando como foi o seu processo de design e como você acredita que o produto
-resolve o problema (ou problemas) que sua usuária enfrenta.
-
-#### Histórias de usuário
-
-Depois de entender as necessidades das suas usuárias, escreva as
-[Histórias de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio)
-que representam tudo o que a usuária precisa fazer/ver.
-As **Histórias de Usuário** devem ser o resultado do seu processo de
-pesquisa ou _research_ das suas usuárias.
-
-Certifique-se de incluir a Definição de Pronto (_definition of done_) e
-os Critérios de Aceitação para cada uma.
-
-Use suas histórias de usuário para planejar seus sprints, dividindo cada
-história em tarefas.
-
-Na medida do possível, conclua uma História de Usuário antes de passar
-para a próxima (atendendo à Definição de Concluído e aos Critérios de Aceitação).
-
 #### Geração dos dados
 
 O tema será de sua escolha, por exemplo, podem ser personagens importantes
@@ -671,7 +582,7 @@ Recursos/características adicionais sugeridos:
   ou [Google Charts](https://developers.google.com/chart/).
 * Cobertura de 100%
 
-## 8. Objetivos de aprendizagem
+## 7. Objetivos de aprendizagem
 
 Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
 
@@ -876,47 +787,6 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Few shot prompting | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/es/docs/basics/few_shot)
 </p></details>
 
-## 9. Dicas, guias e leituras complementares
-
-### Primeiros Passos
-
-Junte-se ao canal Slack
-[#project-dataverse-pt](https://claseslaboratoria.slack.com/archives/C06BA7468AU)
-para conversar e pedir ajuda no projeto.
-
-Antes de começar a escrever código, você deve definir o que o
-produto deverá fazer com base no conhecimento que você pode obter da sua usuária.
-Estas perguntas podem te ajudar:
-
-* Quem são as principais usuárias do produto?
-* Quais são os objetivos dessas usuárias em relação ao produto?
-* Quais são os dados mais relevantes que elas desejam ver na interface e por quê?
-* Quando elas usam ou usariam o produto?
-* Toda a sua pesquisa anterior deve resultar em todas as Histórias
-  de Usuária do seu projeto.
-* Não faça protótipos de alta fidelidade de todas as suas Histórias. Comece
-  somente pelos que são necessários para o seu Sprint 1
-  (primeira semana de trabalho). Mais dicas no guia de organização
-  para o projeto.
-
-Quando estiver pronta para codificar, sugerimos que comece assim:
-
-1. Um dos membros da equipe deve fazer um :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) do repositório da sua turma,
-   seus _coaches_ compartilharão um _link_ para um repositório e darão acesso
-   de leitura nesse repositório. O outro membro da equipe deve fazer um _fork_
-   **do repositório da colega** e
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
-   para o mesmo.
-2. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para o seu computador (cópia local).
-3. 📦 Instale as dependências do projeto com o comando `npm install`. Isso
-   presume que você instalou o [Node.js](https://nodejs.org/) (que inclui [npm](https://docs.npmjs.com/)).
-4. Se tudo correr bem, você deverá conseguir executar os :traffic_light:
-   testes unitários (unit tests) com o comando `npm test`.
-5. Para ver a interface do seu programa no navegador, use o comando
-  `npm start` para iniciar o servidor web e acesse
-  `http://localhost:5000` no seu navegador.
 6. Vamos começar a codificar! :rocket:
 
 ### Conteúdo de Referência
@@ -958,40 +828,13 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 * [Node.js](https://nodejs.org/)
 * [Jest](https://jestjs.io/)
 
-#### Organização do Trabalho
 
-* [Histórias de Usuário](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
-  Atente-se que Cris não diferencia _Definição de Concluído_ de _Critérios de
-  Aceitação_ e nós sim faremos. Mais detalhes no guia.
-* [Como dividir as H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 
-## 10. Considerações para pedir seu Feedback do Projeto
 
-Antes de agendar seu Feedback do Projeto com um coach, assegure-se de que seu projeto:
 
-* [ ] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-* [ ] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
-* [ ] Cumpre todos os testes unitários ao executar `npm run test` e
-  que têm uma cobertura de 70% de _statements_ (_sentenças_),
-  _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-* [ ] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
-* [ ] Está enviado no GitHub e publicado no GitHub Pages
-* [ ] Captura de tela do prompt utilizado para gerar os dados.
-* Tem um `README.md` com o seguinte:
-  - [ ] _Definição do produto_ clara e informativa
-  - [ ] Histórias de usuário
-  - [ ] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
-  - [ ] A lista de problemas que você detectou por meio de testes
-    de usabilidade no `README.md`
-* Tem uma UI que cumpre as funcionalidades:
-  - [ ] Mostra lista com dados e/ou indicadores
-  - [ ] Permite ordenar dados por um ou mais campos (ascendente e descendente)
-  - [ ] Permite filtrar dados com base em uma condição
-  - [ ] Permite limpar os filtros com um botão
-  - [ ] É _responsiva_
 
-Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
-_life skills_ a partir do seu painel do estudante.
 
-Se você não completou todos os itens acima, não consideramos que está pronta para
-sua sessão de Feedback do Projeto.
+
+
+
+

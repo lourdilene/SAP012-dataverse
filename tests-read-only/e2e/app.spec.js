@@ -13,7 +13,6 @@ test.describe("Pagina interraciones", () => {
           `[itemprop=${property}]`,
           (el) => el.textContent
         );
-        console.log(property);
         return value;
       })
     );
@@ -141,20 +140,6 @@ test.describe("Pagina interraciones", () => {
       // await sortOrderEl.selectOption(sortOptions.desc);
       await selectSortOrder(sortOrderEl, sortOptions.desc);
       const valuesSortedDesc = await getItempropValues(page, sortByProperty);
-
-      console.log(
-        "valuesSortedAsc",
-        valuesSortedAsc,
-        "valuesNoSorted",
-        [...valuesNoSorted].sort()
-      );
-
-      console.log(
-        "valuesSortedDesc",
-        valuesSortedDesc,
-        "valuesNoSorted",
-        [...valuesNoSorted].sort().reverse()
-      );
 
       expect(valuesSortedAsc).toEqual([...valuesNoSorted].sort());
       expect(valuesSortedDesc).toEqual([...valuesNoSorted].sort().reverse());
