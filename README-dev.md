@@ -116,11 +116,11 @@ Leitora assídua e fã da Agatha Christie:
 
  Design Mobile:
 
-*** print do site no celular***
+[*** print do site no celular***](https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/mobile.png)
 
 Design Desktop:
 
-*** print do site desktop***
+[*** print do site desktop***](https://raw.githubusercontent.com/lourdilene/SAP012-dataverse/main/desktop.png)
 
 ## 6. Critérios de qualidade e aceitação
 
@@ -156,12 +156,12 @@ Design Desktop:
 
 ## 7. Aprendizados
 
-Teste e Técnicas de prompting
-Uso de flexbox
-Melhor entendimento da estrutura de testes.
-Responsividade usando a metodologia mobilefirst
-Git(Merge upstream, fetch upstream, log upstream, git checkout e pullrequest)
-Atualização do README através do Github (Issues)
+* Teste e Técnicas de prompting
+* Uso de flexbox
+* Melhor entendimento da estrutura de testes.
+* Responsividade usando a metodologia mobilefirst
+* Git(Merge upstream, fetch upstream, log upstream, git checkout e pullrequest)
+* Atualização do README através do Github (Issues)
 
 
 
