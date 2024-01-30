@@ -11,7 +11,6 @@ export const renderItems = (data) => {
     const dlElement = document.createElement("dl");
 
     const dtElement = document.createElement("dt");
-    dtElement.textContent = "name";
 
     const ddElement = document.createElement("dd");
     ddElement.setAttribute("itemprop", "name");
@@ -23,21 +22,18 @@ export const renderItems = (data) => {
     imgElement.src = book.imageUrl;
     imgElement.setAttribute("itemprop", "img");
 
-    const dtShortDescriptionElement = document.createElement("dt");
-    dtElement.textContent = "shortDescription";
-    const ddShortDescriptionElement = document.createElement("dd");
-    ddShortDescriptionElement.setAttribute("itemprop", "shortDescription");
-    ddShortDescriptionElement.textContent = book.shortDescription;
+    const divElement = document.createElement("div");
+    divElement.classList.add("book-info");
 
     const dtPagesBookElement = document.createElement("dt");
-    dtPagesBookElement.textContent = book.facts.pagesBook;
+    dtPagesBookElement.textContent = "Pages:";
 
     const ddPagesBookElement = document.createElement("dd");
     ddPagesBookElement.setAttribute("itemprop", "sort");
     ddPagesBookElement.textContent = book.facts.pagesBook;
 
     const dtPublicationBookElement = document.createElement("dt");
-    dtPublicationBookElement.textContent = book.facts.publicationBook;
+    dtPublicationBookElement.textContent = "Year:";
 
     const ddPublicationBookElement = document.createElement("dd");
     ddPublicationBookElement.setAttribute("itemprop", "sort");
@@ -47,12 +43,12 @@ export const renderItems = (data) => {
     dlElement.appendChild(dtElement);
     dlElement.appendChild(ddElement);
 
-    dlElement.appendChild(dtShortDescriptionElement);
-    dlElement.appendChild(ddShortDescriptionElement);
-    dlElement.appendChild(dtPagesBookElement);
-    dlElement.appendChild(ddPagesBookElement);
-    dlElement.appendChild(dtPublicationBookElement);
-    dlElement.appendChild(ddPublicationBookElement);
+    divElement.appendChild(dtPagesBookElement);
+    divElement.appendChild(ddPagesBookElement);
+    divElement.appendChild(dtPublicationBookElement);
+    divElement.appendChild(ddPublicationBookElement);
+
+    dlElement.appendChild(divElement);
 
     liElement.appendChild(dlElement);
     ulElement.appendChild(liElement);

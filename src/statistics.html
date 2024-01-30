@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="statistics-page">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,34 +21,14 @@
       <div id="header-content">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="statistics.html">Statistics</a></li>
           </ul>
         </nav>
-        <div id="header-filter">
-          <label for="filters">Filter:</label>
-          <select name="type-book" id="filters" data-testid="selecionar-filtro">
-            <option value="selecione">Selecione</option>
-            <option value="novel">Novel</option>
-            <option value="movie">Movie</option>
-            <option value="theater">Theater</option>
-          </select>
-        </div>
-        <div id="sort">
-          <label for="sorts">Sort by: </label>
-          <select name="sort" id="sorts" data-testid="selecionar-ordenar">
-            <option value="selecione">Selecione</option>
-            <option value="pages-book">Number of Pages:</option>
-            <option value="publication-book">Year of Publication:</option>
-          </select>
-          <select name="ordem-ordenacao" id="ordenacao">
-            <option value="selecione">Selecione</option>
-            <option value="asc">Asc</option>
-            <option value="desc">Desc</option>
-          </select>
-          <button data-testid="botao-limpar" id="clear-button">Clear</button>
+        <div id="content-bottom">
+          <h1>Some statistics about books</h1>
         </div>
       </div>
     </header>
