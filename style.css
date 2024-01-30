@@ -262,14 +262,22 @@ dd.book-name {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   background: #0f3d6b url(images/footer-bg.png);
   background-size: cover;
   color: white;
-  height: 1.5em;
+  height: 2.5em;
   text-align: center;
   padding: 2em;
   width: 100%;
+}
+
+footer a {
+  color: var(--white);
 }
 
 @media only screen and (min-width: 768px) {

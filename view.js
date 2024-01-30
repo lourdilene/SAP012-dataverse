@@ -21,6 +21,7 @@ export const renderItems = (data) => {
     const imgElement = document.createElement("img");
     imgElement.src = book.imageUrl;
     imgElement.setAttribute("itemprop", "img");
+    imgElement.setAttribute("alt", "image book");
 
     const divElement = document.createElement("div");
     divElement.classList.add("book-info");
